@@ -1,0 +1,255 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>La boutique del mistero</title>
+				<respStmt>
+					<resp>Editore</resp>
+					<name xml:id="OAF">Open Access Foundation</name>
+				</respStmt>
+				<respStmt>
+					<resp>Marcatura</resp>
+					<name xml:id="AS">Anna Sette</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Open Access Foundation</publisher>
+				<pubPlace>Bologna</pubPlace>
+				<date>2023</date>
+				<idno></idno>
+				<availability>
+					<p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>La boutique del mistero</title>
+					<author>Dino Buzzati</author>
+					<publisher>Mondadori</publisher>
+					<pubPlace>Milano</pubPlace>
+					<date>2018</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<div type="sezione" n="1">
+				<head>La vita</head>
+				<p>Dino Buzzati nasce il 16 ottobre 1906 a San Pellegrino, nei pressi di Belluno, nella villa cinquecentesca di proprietà della famiglia. I genitori dell'autore risiedono stabilmente a Milano, in piazza San Marco 12. Il padre, professor Giulio Cesare, insegna Diritto internazionale all'Università di Pavia e alla Bocconi di Milano. La madre, Alba Mantovani, veneziana come il marito, è l'ultima discendente della famiglia dogale Badoer Partecipazio. Dino Buzzati, dopo aver frequentato il ginnasio Parini di Milano, si iscrive alla facoltà di Legge, laureandosi il 30 ottobre 1928 con una tesi su «La natura giuridica del Concordato». Qualche mese prima era stato assunto al «Corriere della Sera» come addetto al servizio di cronaca. Sin dalla giovinezza si manifestano gli interessi, i temi e le passioni del futuro scrittore, ai quali resterà fedele per tutta la vita: la montagna, il disegno, la poesia. Durante l'estate del 1920 comincia le prime escursioni sulle Dolomiti; inizia a scrivere e a disegnare affascinato dalle illustrazioni fantastiche di Arthur Rackham; legge Dostoevskij ed è attratto dall'egittologia. Nel dicembre dello stesso anno scrive il suo primo testo letterario, «La canzone delle montagne». Sempre nel 1920 muore il padre per un tumore al pancreas ed egli, a soli 14 anni, comincia a nutrire il timore di essere colpito dallo stesso male. Nel 1927 frequenta la Scuola allievi ufficiali a Milano.
+				Tiene un Diario su cui, a parte una breve interruzione fra il 1966 e il 1970, annota impressioni, motivi, giudizi, fino a nove giorni prima dell'evento finale; la cronaca e la stessa morte si affiancano ai temi citati prima per trasformarsi in altrettanti «luoghi» della sua attività di scrittore.
+				Nel 1931 inizia la collaborazione al settimanale «Il popolo di Lombardia» con note teatrali, racconti e soprattutto come illustratore e disegnatore. Nel 1933 esce il suo primo romanzo, «Bàrnabo delle montagne» e, due anni dopo, pubblica «Il segreto del bosco vecchio». Nel gennaio del 1939 consegna il manoscritto de «Il deserto dei Tartari» all'amico Arturo Brambilla perché lo consegni a Leo Longanesi, che stava preparando una nuova collezione per Rizzoli denominata il «Sofà delle Muse».
+				Su segnalazione di Indro Montanelli, questi accetta la pubblicazione del nuovo romanzo di Buzzati; tuttavia, in una lettera, Longanesi prega l'autore di cambiare il titolo originario «La fortezza», per evitare ogni allusione alla guerra ormai imminente. Il 12 aprile dello stesso anno si imbarca a Napoli sulla nave «Colombo» e parte per Addis Abeba, come cronista e fotoreporter, inviato speciale del «Corriere della Sera»; l'anno successivo parte dallo stesso porto come corrispondente di guerra sull'incrociatore «Fiume»; partecipa così, seppure come testimone, alle battaglie di Capo Teulada e di Capo Matapan e ai due scontri della Sirte, inviando i suoi articoli al giornale: e sarà sua anche la «Cronaca di ore memorabili» apparsa sulla prima pagina del «Corriere della Sera» il 25 aprile 1945, giorno della Liberazione. Nello stesso anno esce «La famosa invasione degli orsi in Sicilia», disegnata dall'autore e l'»operetta didascalica in chiave di umorismo fantastico» «Il libro delle pipe», redatta ed illustrata in stile ottocentesco e realizzata in collaborazione con il cognato Eppe Ramazzotti. Nel 1949 esce il volume di racconti «Paura alla Scala» e nel giugno dello stesso anno è inviato dal «Corriere della Sera» al seguito del Giro d'Italia. Questi articoli saranno poi riuniti in un volume a cura di Claudio Marabini nel 1981. Nel 1950 l'editore Neri Pozza di Vicenza stampa la prima edizione degli 88 pezzi di «In quel preciso momento», una raccolta di note, appunti, racconti brevi e divagazioni e, quattro anni dopo, esce il volume di racconti «Il crollo della Baliverna», col quale vincerà, ex-aequo con Cardarelli, il Premio Napoli.
+				Nel 1955 Albert Camus adatta per il pubblico francese il copione di «Un caso clinico», che viene rappresentato a Parigi per la regia di Georges Vitaly; il primo ottobre dello stesso anno viene rappresentato a Bergamo il racconto musicale «Ferrovia sopraelevata», con le musiche di Luciano Chailly. Nel gennaio 1957 sostituisce temporaneamente Leonardo Borgese come critico d'arte del «Corriere della Sera». Lavora anche per la «Domenica del Corriere», occupandosi soprattutto dei titoli e delle didascalie. Compone alcune poesie, che entreranno a far parte del poemetto «Il capitano Pic». Nel 1958 escono «Le storie dipinte», presentate in occasione della personale di pittura dello scrittore inaugurata il 27 novembre alla Galleria Re Magi di Milano.
+				Le sue opere continuano ad essere rappresentate in teatro, alla radio e in seguito alla televisione. L'8 giugno del 1961 muore la madre e due anni dopo egli scriverà la cronaca interiore di quel funerale nell'elzeviro «I due autisti». Seguono anni di viaggi come inviato del giornale: a Tokio, a Gerusalemme, a New York, a Washington e a Praga, dove visita «le case di Kafka», l'autore al quale la critica lo ha sempre affiancato. Libri, mostre e rappresentazioni di Buzzati compaiono sempre più spesso sulle cronache. Nel 1970 gli viene assegnato il premio giornalistico «Mario Massai» per gli articoli pubblicati sul «Corriere della Sera» nell'estate 1969, a commento della discesa dell'uomo sulla Luna. Il 10 marzo di quell'anno va in onda alla televisione francese «Le chien qui a vu Dieu», di Paul Paviot, dall'omonimo racconto di Buzzati. In settembre si espongono alla Galleria «Naviglio» di Venezia le tavole di ex-voto di Santa Rita, da lui dipinte.
+				Il 27 febbraio 1971 viene rappresentata a Trieste l'opera in un atto e tre quarti del maestro Mario Buganelli dal titolo «Fontana», tratta dal racconto «Non aspettavamo altro». L'editore Garzanti pubblica, con l'aggiunta di didascalie, gli ex-voto dipinti da Buzzati: «I miracoli di Val Morel». L'8 novembre esce su «Oggi» una lunga intervistainchiesta sulle «eterne domande della fede». In novembre espone i suoi quadri alla Galleria «Lo Spazio» di Roma. Nella stessa occasione viene presentato un volume di critica a lui dedicato dal titolo «Buzzati pittore». Esce presso Mondadori il volume di racconti ed elzeviri "Le notti difficili". Sarà l'ultimo curato dall'autore. Il primo dicembre visita per l'ultima volta la casa di San Pellegrino per il "supremo addio". Sette giorni dopo esce sul "Corriere della Sera" l'ultimo elzeviro: "Alberi". Lo stesso giorno viene ricoverato alla clinica "La Madonnina" di Milano. Il 28 gennaio 1972, mentre fuori imperversa una bufera di vento e di neve, Buzzati muore a Milano con la dignità coraggiosa di un suo famoso personaggio de «Il deserto dei Tartari».</p>
+			</div>
+
+			<div type="sezione" n="2">
+				<head>L'opera</head>
+				<p>L'opera di Buzzati, seppure sfaccettata in vari aspetti e generi, rispecchia una costante comune: la montagna. Essa appare come elemento costante sia nella prosa sia nella pittura; tanto che il suo primo romanzo è stato tracciato anche in una serie di bozzetti per lo più inediti. In "Bàrnabo delle montagne" il paesaggio dolomitico si configura come oggetto e soggetto della narrazione; Buzzati sembra accostarvisi nella sua tormentata solitudine come ad un luogo che ha radici perse nella notte dei tempi, quando l'uomo nasceva al mondo e alla vita, senza distinzione di classe e di ordini. In linea generale si può dire che ogni libro di Buzzati è legato all'altro in quanto rappresentazione delle fasi di una vita umana. Nel flusso del tempo universale, lo scrittore enuclea un brandello di storia, che si dilata fino a diventare un romanzo. Il protagonista, le cui origini non sono mai definite, è trascinato in una trama che lo porta verso la morte. Ogni fase successiva è la rinascita di un'esperienza. Si tratta di una scelta meditata, maturata ai tempi di "Bàrnabo", romanzo che già contiene i temi dei due romanzi successivi "Il segreto del bosco vecchio» e «Il deserto dei Tartari»: il bosco della sua fanciullezza e la «pianura vile» dell'età adulta. La cerniera fra il passato dei boschi e delle montagne ed il deserto dell'attesa è già presente in quei racconti che poi confluiranno per la maggior parte ne «I sette messaggeri», edito nel 1942. Comincia qui il racconto di un viaggio, la storia di una vita che continua. Ma qui comincia anche il resoconto dell'altra storia: quella che si svolge intorno all'autore proprio nel momento in cui si forma. Buzzati, da cronista, si è trovato a dover registrare gli accadimenti e lo ha fatto contestandone gli aspetti negativi e, al tempo stesso, allargando l'impegno morale della parola scritta. Il tono scelto per questo compito è stato quello di dilatare i «mostri della normalità», le deformazioni dell'uomo che ha smarrito la purezza originaria. Il romanzo più famoso di Buzzati, «Il deserto dei Tartari», esce nel 1940, entrando a far parte di una collana diretta da Leo Longanesi, che si proponeva di riunire le "opere più originali della letteratura italiana e straniera, le biografie e le memorie di uomini grandi e meschini, la storia dei fatti e delle illusioni di ieri e di oggi". Quando Buzzati consegna il suo manoscritto all'editore ha solo 33 anni. Dal 1928 il lavoro al "Corriere della Sera" radica in lui la consapevolezza della "fuga del tempo": ha visto i suoi colleghi invecchiare nell'attesa inutile di un miracolo scaturito dal rigido mestiere del giornalista che li isola nei confini di una scrivania. Il "deserto" del romanzo è proprio la storia della vita nella fortezza del giornale, che promette i prodigi di una solitudine che è abito e vocazione. La favola per bambini "La famosa invasione degli orsi in Sicilia" (1945) non fa che ripetere, sotto mentite spoglie, il mito "Bàrnabo", l'atmosfera di "attesa" del "Deserto", il viaggio della vita, la morte in battaglia e la lotta spirituale e morale. E' quindi un libro tutt'altro che ingenuo e testimonia la ricerca interiore e formale che Buzzati compie tentando la via della fusione dei generi letterari. Nello stesso anno esce anche "Il libro delle pipe", realizzato da Buzzati in collaborazione con Eppe Ramazzotti. Qui la struttura a catalogo permette di elencare tutte le specie di pipe esistenti nella realtà e nella fantasia. I disegni, inoltre, fanno corpo con la descrizione e arricchiscono il testo di particolari e dettagli. Dopo aver dato voce umana agli animali, ai venti, alle cose della natura, adesso Buzzati tenta di infondere vita anche agli oggetti apparentemente inanimati. Il modo iper-reale di descrivere le pipe, allora, diventa segno della visionarietà, del suo modo di convertire l'arte, in ogni sua manifestazione, in giudizio sugli uomini e sul mondo. In "Paura alla Scala" (1949) il "vizio giudicante" di Buzzati e la coscienza della mortalità lasciano le montagne aguzze, regno del mistero e della purezza, e si riverberano nei salotti della Milano formicolante di uomini e di macchine. Egli riesce a raffigurare e ad osservare con occhio critico il clima dominante in Italia dopo la seconda guerra mondiale, i compromessi borghesi, la violenza sovversiva; vi dominano un tono grottesco e satirico, un ritmo spietato e profondamente lucido, una forza morale ed etica mascherate sotto il dovere di cronaca. Considerazioni, appunti, riflessioni sul mestiere esercitato, sulla interpretazione del mondo, faranno parte del libro «In quel preciso momento», uscito nel 1950. Centocinquantasei frammenti, note e racconti brevi, raccolti come scintille dei romanzi, come colloquio con se stesso, come risonanza interiore ed esteriore. Fra le varie forme narrative testimoniate in questo libro comincia farsi strada la struttura a dialogo propria del testo teatrale. Il monologo interiore diventa gesto, la parola voce recitante, il testo rappresentazione. Ne «Il crollo della Baliverna» (1954) il racconto nasce sempre da un nucleo costituito da elementi concreti che, per un verso, conduce alla deformazione fantastica e, per l'altro verso, porta verso territori che implicano impegno sociale, etico e trascendente. Il suo sguardo, ora, pur ritornando spesso alle Origini, si spinge verso il futuro, verso quelle ipotesi fantascientifiche che tentano di sostituirsi al vecchio Dio. L'estrema frammentarietà dei racconti tende comunque sempre alla totalità del senso, come viene ribadito nel 1958, quando Buzzati riunisce la sua produzione più significativa nel libro «Sessanta racconti». Anche qui si profila il messaggio dei nuovi pericoli annidati nella ricerca scientifica, prefigurando la nascita del romanzo uscito nel 1960: «Il grande ritratto». Il racconto della "macchina che vive" è immaginato in un futuro relativamente prossimo rispetto al momento di composizione del libro e narra, per la prima volta nell'opera di Buzzati, la storia di "un amore". Il grande scienziato Endriade ama fino al paradosso una macchina che riproduce la prima moglie scomparsa. La storia, apparentemente diversa, del desiderio di un amore reale scaturita da uomini con un'occupazione verosimile, con desideri legati alla terra, al denaro, al prestigio sociale, è narrata nel romanzo del 1963: "Un amore". I temi del discorso narrativo di Buzzati si riverberano anche nella poesia, dove il pensiero, le voci e le immagini dei personaggi usufruiscono della musica, delle parole, dei suoni onomatopeici, del ritmo percussivo e significante che accompagnerà anche i suoi libretti d'opera. La contaminazione fra disegno, storia, poesia e musica diventerà sovrapposizione nel "Poema a fumetti" (1969), ne "Le storie dipinte" (1958) e, infine, in quella sorta di libro miniato che sono "I miracoli di Val Morel". Il tutto poi si arricchirà del linguaggio d'azione, che tradurrà gran parte delle tematiche di Buzzati nella sua vasta produzione teatrale. Nel 1966 esce un'altra raccolta di racconti, "Il colombre", che porta in appendice un piccolo romanzo, "Viaggio agli inferni del secolo", che diventa una sorta di chiave di lettura dell'opera di Buzzati, tesa soprattutto a descrivere la realtà che lo circonda. La volontà di comunicare si manifesta anche nel linguaggio adottato, sempre piano e comprensibile, "giornalistico", una sorta di "volgare" accessibile a tutti, anche ai bambini. I libri usciti dopo l'ultima raccolta di racconti, "La boutique del mistero" (1968), tendono a riunire le "cronache" scritte per il giornale: lo spazio privilegiato dello scrittore per rammentare a tutti gli uomini la loro finitezza, per invitarli a guardare oltre gli involucri fisici e sociali. Nel settembre 1971 esce "Le notti difficili" e pochi mesi dopo la sua morte, le "Cronache terrestri". Le sue inchieste giornalistiche saranno poi raccolte nei volumi "I misteri d'Italia" (1978), "Buzzati al Giro d'Italia" (1981), "Cronache nere" (1984). Le ultime testimonianze della sua vita dedicata alla scrittura sono apparse nel 1985 nelle raccolte di alcuni passi annotati su una delle sue agende, "Il reggimento parte all'alba", e delle lettere da lui scritte all'amico Arturo Brambilla ("Lettere a Brambilla"). Ancora una volta emergono i suoi temi più cari e insistiti e, soprattutto, la cifra dello scavo oltre le apparenze, che Buzzati ha sempre ricercato nelle cose e negli uomini.</p>
+			</div>
+
+			<div type="sezione" n="3">
+				<head>La fortuna</head>
+				<p>L'opera di Buzzati, seppure sfaccettata in vari aspetti e generi, rispecchia una costante comune: la montagna. Essa appare come elemento costante sia nella prosa sia nella pittura; tanto che il suo primo romanzo è stato tracciato anche in una serie di bozzetti per lo più inediti. In "Bàrnabo delle montagne" il paesaggio dolomitico si configura come oggetto e soggetto della narrazione; Buzzati sembra accostarvisi nella sua tormentata solitudine come ad un luogo che ha radici perse nella notte dei tempi, quando l'uomo nasceva al mondo e alla vita, senza distinzione di classe e di ordini. In linea generale si può dire che ogni libro di Buzzati è legato all'altro in quanto rappresentazione delle fasi di una vita umana. Nel flusso del tempo universale, lo scrittore enuclea un brandello di storia, che si dilata fino a diventare un romanzo. Il protagonista, le cui origini non sono mai definite, è trascinato in una trama che lo porta verso la morte. Ogni fase successiva è la rinascita di un'esperienza. Si tratta di una scelta meditata, maturata ai tempi di "Bàrnabo", romanzo che già contiene i temi dei due romanzi successivi "Il segreto del bosco vecchio» e «Il deserto dei Tartari»: il bosco della sua fanciullezza e la «pianura vile» dell'età adulta. La cerniera fra il passato dei boschi e delle montagne ed il deserto dell'attesa è già presente in quei racconti che poi confluiranno per la maggior parte ne «I sette messaggeri», edito nel 1942. Comincia qui il racconto di un viaggio, la storia di una vita che continua. Ma qui comincia anche il resoconto dell'altra storia: quella che si svolge intorno all'autore proprio nel momento in cui si forma. Buzzati, da cronista, si è trovato a dover registrare gli accadimenti e lo ha fatto contestandone gli aspetti negativi e, al tempo stesso, allargando l'impegno morale della parola scritta. Il tono scelto per questo compito è stato quello di dilatare i «mostri della normalità», le deformazioni dell'uomo che ha smarrito la purezza originaria. Il romanzo più famoso di Buzzati, «Il deserto dei Tartari», esce nel 1940, entrando a far parte di una collana diretta da Leo Longanesi, che si proponeva di riunire le "opere più originali della letteratura italiana e straniera, le biografie e le memorie di uomini grandi e meschini, la storia dei fatti e delle illusioni di ieri e di oggi". Quando Buzzati consegna il suo manoscritto all'editore ha solo 33 anni. Dal 1928 il lavoro al "Corriere della Sera" radica in lui la consapevolezza della "fuga del tempo": ha visto i suoi colleghi invecchiare nell'attesa inutile di un miracolo scaturito dal rigido mestiere del giornalista che li isola nei confini di una scrivania. Il "deserto" del romanzo è proprio la storia della vita nella fortezza del giornale, che promette i prodigi di una solitudine che è abito e vocazione. La favola per bambini "La famosa invasione degli orsi in Sicilia" (1945) non fa che ripetere, sotto mentite spoglie, il mito "Bàrnabo", l'atmosfera di "attesa" del "Deserto", il viaggio della vita, la morte in battaglia e la lotta spirituale e morale. E' quindi un libro tutt'altro che ingenuo e testimonia la ricerca interiore e formale che Buzzati compie tentando la via della fusione dei generi letterari. Nello stesso anno esce anche "Il libro delle pipe", realizzato da Buzzati in collaborazione con Eppe Ramazzotti. Qui la struttura a catalogo permette di elencare tutte le specie di pipe esistenti nella realtà e nella fantasia. I disegni, inoltre, fanno corpo con la descrizione e arricchiscono il testo di particolari e dettagli. Dopo aver dato voce umana agli animali, ai venti, alle cose della natura, adesso Buzzati tenta di infondere vita anche agli oggetti apparentemente inanimati. Il modo iper-reale di descrivere le pipe, allora, diventa segno della visionarietà, del suo modo di convertire l'arte, in ogni sua manifestazione, in giudizio sugli uomini e sul mondo. In "Paura alla Scala" (1949) il "vizio giudicante" di Buzzati e la coscienza della mortalità lasciano le montagne aguzze, regno del mistero e della purezza, e si riverberano nei salotti della Milano formicolante di uomini e di macchine. Egli riesce a raffigurare e ad osservare con occhio critico il clima dominante in Italia dopo la seconda guerra mondiale, i compromessi borghesi, la violenza sovversiva; vi dominano un tono grottesco e satirico, un ritmo spietato e profondamente lucido, una forza morale ed etica mascherate sotto il dovere di cronaca. Considerazioni, appunti, riflessioni sul mestiere esercitato, sulla interpretazione del mondo, faranno parte del libro «In quel preciso momento», uscito nel 1950. Centocinquantasei frammenti, note e racconti brevi, raccolti come scintille dei romanzi, come colloquio con se stesso, come risonanza interiore ed esteriore. Fra le varie forme narrative testimoniate in questo libro comincia farsi strada la struttura a dialogo propria del testo teatrale. Il monologo interiore diventa gesto, la parola voce recitante, il testo rappresentazione. Ne «Il crollo della Baliverna» (1954) il racconto nasce sempre da un nucleo costituito da elementi concreti che, per un verso, conduce alla deformazione fantastica e, per l'altro verso, porta verso territori che implicano impegno sociale, etico e trascendente. Il suo sguardo, ora, pur ritornando spesso alle Origini, si spinge verso il futuro, verso quelle ipotesi fantascientifiche che tentano di sostituirsi al vecchio Dio. L'estrema frammentarietà dei racconti tende comunque sempre alla totalità del senso, come viene ribadito nel 1958, quando Buzzati riunisce la sua produzione più significativa nel libro «Sessanta racconti». Anche qui si profila il messaggio dei nuovi pericoli annidati nella ricerca scientifica, prefigurando la nascita del romanzo uscito nel 1960: «Il grande ritratto». Il racconto della "macchina che vive" è immaginato in un futuro relativamente prossimo rispetto al momento di composizione del libro e narra, per la prima volta nell'opera di Buzzati, la storia di "un amore". Il grande scienziato Endriade ama fino al paradosso una macchina che riproduce la prima moglie scomparsa. La storia, apparentemente diversa, del desiderio di un amore reale scaturita da uomini con un'occupazione verosimile, con desideri legati alla terra, al denaro, al prestigio sociale, è narrata nel romanzo del 1963: "Un amore". I temi del discorso narrativo di Buzzati si riverberano anche nella poesia, dove il pensiero, le voci e le immagini dei personaggi usufruiscono della musica, delle parole, dei suoni onomatopeici, del ritmo percussivo e significante che accompagnerà anche i suoi libretti d'opera. La contaminazione fra disegno, storia, poesia e musica diventerà sovrapposizione nel "Poema a fumetti" (1969), ne "Le storie dipinte" (1958) e, infine, in quella sorta di libro miniato che sono "I miracoli di Val Morel". Il tutto poi si arricchirà del linguaggio d'azione, che tradurrà gran parte delle tematiche di Buzzati nella sua vasta produzione teatrale. Nel 1966 esce un'altra raccolta di racconti, "Il colombre", che porta in appendice un piccolo romanzo, "Viaggio agli inferni del secolo", che diventa una sorta di chiave di lettura dell'opera di Buzzati, tesa soprattutto a descrivere la realtà che lo circonda. La volontà di comunicare si manifesta anche nel linguaggio adottato, sempre piano e comprensibile, "giornalistico", una sorta di "volgare" accessibile a tutti, anche ai bambini. I libri usciti dopo l'ultima raccolta di racconti, "La boutique del mistero" (1968), tendono a riunire le "cronache" scritte per il giornale: lo spazio privilegiato dello scrittore per rammentare a tutti gli uomini la loro finitezza, per invitarli a guardare oltre gli involucri fisici e sociali. Nel settembre 1971 esce "Le notti difficili" e pochi mesi dopo la sua morte, le "Cronache terrestri". Le sue inchieste giornalistiche saranno poi raccolte nei volumi "I misteri d'Italia" (1978), "Buzzati al Giro d'Italia" (1981), "Cronache nere" (1984). Le ultime testimonianze della sua vita dedicata alla scrittura sono apparse nel 1985 nelle raccolte di alcuni passi annotati su una delle sue agende, "Il reggimento parte all'alba", e delle lettere da lui scritte all'amico Arturo Brambilla ("Lettere a Brambilla"). Ancora una volta emergono i suoi temi più cari e insistiti e, soprattutto, la cifra dello scavo oltre le apparenze, che Buzzati ha sempre ricercato nelle cose e negli uomini.</p>
+			</div>
+
+			<div type="sezione" n="4">
+				<head>Bibliografia</head>
+				<head>Opere di Dino Buzzati</head>
+				<div type="sottosezione" n="4.1">
+					<head>Romanzi e racconti</head>
+					<p>Bàrnabo delle montagne, Treves-Treccani-Tumminelli, Milano-Roma 1933 (poi Garzanti, Milano 1949 e Mondadori, Milano 1979).
+					Il segreto del Bosco Vecchio, Treves-Treccani-Tumminelli, Milano-Roma 1935 (poi Garzanti, Milano 1957 e Mondadori, Milano 1979).
+					Il deserto dei Tartari, Rizzoli, Milano-Roma 1940 (poi Mondadori, Milano 1945).
+					I sette messaggeri, Mondadori, Milano 1942.
+					La famosa invasione degli orsi in Sicilia, Rizzoli, Milano 1945 (poi Martello, Milano 1958 e Mondaori, Milano 1977).
+					Il libro delle pipe, in collaborazione con G. Ramazzotti e con disegni degli autori, Antonioli, Milano 1945 (poi Martello, Milano 1966).
+					Paura della Scala, Mondadori, Milano, 1949.
+					In quel preciso momento, Neri Pozza, Vicenza 1950 (2 ed. accresciuta 195; 3 ed. Mondadori, Milano 1963).
+					Il crollo della Baliverna, Mondadori, Milano 1954.
+					Esperimento di magia. 18 racconti, Rebellato, Padova 1958.
+					Le storie dipinte, a cura di M. Oriani e A. Ravegnani, All'insegna dei Re Magi, Milano 1958 (nuova ed. a cura di L. Viganò, Mondadori, Milano 2013.
+					Sessanta racconti, Mondadori, Milano 1958.
+					Egregio signore, siamo spiacenti di..., con illustrazione di Siné, Elmo, Milano 1960(poi con il titolo Siamo spiacenti di, con introduzione di D. Porzio, Mondadori, Milano 1975).
+					Il grande ritratto, Mondadori, Milano 1960.
+					Un amore, Mondadori, Milano 1963
+					Il colombre e altri cinquanta racconti, Mondadori, Milano 1966.
+					La boutique del mistero, Mondadori, Milano 1968.
+					Poema a fumetti, Mondadori, Milano 1969.
+					Le notti difficili, Mondadori, Milano 1971.
+					I miracoli di Val Morel, Garzanti, Milano 1971 (1 ed. nel catalogo Miracoli inediti di una santa, Edizioni del Naviglio, Milano 1970; poi Per grazia ricevuta, GEI, Milano 1983; quindi ancora con il titolo I miracoli di Val Morel, con prefazione di I. Montanelli e postfazione di L. Viganò, Mondadori, Milano 2012).
+					Romanzi e racconti, a cura di G. Gramigna, Mondadori, Milano 1975 (”I Meridiani”).
+
+					180 racconti, con una presentazione di C. Della Corte, Mondadori, Milano 1982.
+
+					Il reggimento parte all’alba, con una prefazione di I. Montanelli e uno scritto di G. Piovene, Frassinelli, Milano 1985.
+
+					Il meglio dei racconti, a cura di F. Roncoroni, Mondadori, Milano 1990.
+
+					Lo strano Natale di Mr. Scrooge e altre storie, a cura di D. Porzio, Mondadori, Milano 1990.
+
+					Bestiario, a cura di C. Marabini, Mondadori, Milano 1991 (ed. accresciuta con il titolo Il «Bestiario» di Dino Buzzati, a cura di L. Viganò, Mondadori, Milano 2015).
+
+					Opere scelte, a cura di G. Carnazzi, Mondadori, Milano 1998 (”I Meridiani”).</p>
+				</div>
+					
+				<div type="sottosezione" n="4.2">
+					<head>Poesia</head>
+					<p>Il capitano Pic e altre poesie, Neri Pozza, Vicenza 1965 (poi Le poesie, Neri Pozza, Vicenza 1982) Scusi, da che parte per Piazza del Duomo?, in G. Pirelli - C. Orsi, Milano, Alfieri, Milano 1965 (poi in Due poemetti, Neri Pozza, Vicenza 1967; quindi in Le poesie, cit.).
+					Tre colpi alla porta, in «Il Caffè», n. 5, 1965 (poi in Due poemetti, cit; quindi in Le poesie, cit.).</p>
+				</div>
+
+				<div type="sottosezione" n="4.3">
+					<head>Teatro</head>
+					<p>La rivolta contro i poveri, in «I quaderni di "Film"», 1946.
+					Un caso clinico, Mondadori, Milano 1953.
+					Drammatica fine di un noto musicista, in «Corriere d'informazione», 3-4 novembre 1955.
+					Sola in casa, in «L'illustrazione italiana», maggio 1958, pp. 75-80.
+					Le finestre, in «Corriere d'informazione», 13-14 giugno 1959.
+					Un verme al Ministero, «Il dramma», aprile 1960, pp. 15-48.
+					Il mantello, in «Il dramma», giugno 1962, pp. 37-47-.
+					I suggeritori, in «Documento Moda 1960», Milano 1960.
+					L'uomo che andrà in America, in «Il dramma», giugno 1962, pp. 5-37 (poi L'uomo che andrà in America. Una ragazza arrivò, Bietti, Milano 1968).
+					La colonna infame, in «Il dramma», dicembre 1962, pp. 33-61.
+					La fine del borghese, Bietti, Milano 1968.
+					L'aumento, in «Carte segrete», VI, n.19, luglio-settembre 1972, pp. 73-85(l'atto unico, del 1961, è preceduto da una nota di L. Pasciutti).
+					Un caso clinico e altre commedie in un atto, a cura di G. Davico Bonino, Mondadori, Milano 1985("Oscar Teatro e Cinema").
+					Teatro, a cura di G. Davico Bonino, Mondadori, Milano 2006(raccoglie tutti i testi teatrali).</p>
+				</div>
+
+				<div type="sottosezione" n="4.4">
+					<head>Libretti per musica</head>
+					<p>Ferrovia sopraelevata (racconto musicale in sei episodi per la musica di Luciano Chailly, rappresentato a Bergamo, 1 ottobre 1955), Edizioni della Rotonda, Bergamo 1955 (poi Ferriani, Milano 1960).
+					Procedura penale (opera buffa in un atto per la musica di Luciano Chailly, rappresentata a Como, Teatro Villa Olmo, 30 settembre 1959), Ricordi, Milano 1959.
+					Il mantello (opera lirica in un atto per la musica di Luciano Chailly, rappresentata a Firenze nell'ambito del Maggio Musicale Fiorentino, Teatro della Pergola, 11 maggio 1960), Ricordi, Milano 1960.
+					Battono alla porta (opera televisiva in un atto per la musica di Riccardo Malipiero, trasmessa dalla televisione, per il premio Italia 1961, nel febbraio 1962; rappresentata a Genova nel 1963), Suvini-Zerboni, Milano 1963
+					Era proibito (opera lirica in un atto per la musica di Luciano Chailly, rappresentata a Milano, Piccola Scala, nella stagione 1962-63), Ricordi, Milano 1963.
+					Dino Buzzati ha inoltre realizzato varie scenografie per teatri importanti; fra le altre, ricordiamo quelle per i già citati Il mantello(Teatro della Pergola, Firenze 1960) ed Era proibito(Piccola Scala,, Milano 1963) di Luciano Chaillym e per Jeu de cartes di Igor Stravinskij(Teatro alla Scala, Milano 1960).</p>
+				</div>
+
+				<div type="sottosezione" n="4.5">
+					<head>Scritti gioralistici in volume</head>
+					<p>Cronache terrestri, a cura di D. Porzio, Mondadori, Milano 1972.
+					I misteri d'Italia, Mondadori, Milano 1978.
+					Dino Buzzati al Giro d'Italia, a cura di C. Marabini, Mondadori, Milano 1981.
+					Cronache nere, a cura di O. Del Buono, Theoria, Roma-Napoli 1984
+					Le montagne di vetro, a cura di E. Camanni, Vivalda, Torino 1989.
+					Il buttafuoco. Cronache di guerra sul mare, Mondadori, Milano 1992
+					La «nera» di Dino Buzzati, 2 voll., a cura di L. Viganò, Mondadori, Milano 2002.
+					Le cronache fantastiche, 2 voll., a cura di L. Viganò, Mondadori, Milano 2004.
+					Il panettone non bastò, a cura di L. Viganò, Mondadori, Milano 2004.
+					Sulle Dolomiti, scritti dal 1932 al 1970, a cura di M.A. Ferrari, Editoriale Domus, Rozzano 2005.
+					I fuorilegge della montagna, 2 voll., a cura di L. Viganò, Mondadori, Milano 2010.</p>
+				</div>
+
+				<div type="sottosezione" n="4.6">
+					<head>Prefazioni e altri scritti</head>
+					<p>Ritratto con battaglia, in AA. VV., Prime storie di guerra, a cura di A. Cappellini, Rizzoli, Milano-Roma 1942, pp. 39-50.
+					Difficoltà di Verdi, in AA. VV., Giuseppe Verdi, a cura di F. Abbiati, Milano s.d. [ma 1951], pp. 79-81 (pubblicazione del Teatro alla Scala per le onoranze a Giuseppe Verdi nel cinquantenario della morte).
+					Prefazione a G. Supino, La vera storia di Galatea, Ceschina, Varese-Milano 1962.
+					Milano, in AA. VV., Lo stivale allo spiedo. Viaggio attraverso la cucina italiana, a cura di P. Accolti e G.A. Cibotto, Caanesi, Roma s.d. [ma 1964], pp. 75-81.
+					Come fece Erostrato, in AA. VV., Quando l'Italia tollerava, a cura di G. Fusco, Canesi, Roma 1965, pp. 101-106.
+					Il maestro del Giudizio universale, in L'opera completa di Bosch, con apparati critici e filologici di M. Cinotti, Rizzzoli, Milano 1966 ("Classici dell'arte").
+					Prefazione ad A. Pigna, Miliardari in borghese, Mursia, Milano 1966    
+					Week-End, in F.S. Borri, Il Cimitero Monumentale di Milano, Arti Grafiche E. Marazzi, Milano 1966, pp. 71-75.
+					Prefazione ad A. Giannini, Il brevetto, con tredici disegni di D. Buzzati, Longanesi, Milano 1967.
+					Prefazione a M.R. James, Cuori strappati, Bompiani, Milano 1967 ("Il pesanervi").
+					Testimonianza di due amici, in A. Brambilla, Diario, a cura di F. Brambilla Ageno e A. Brambilla, Mondadori, Milano 1967.
+					Disegno e fotografia, in Trieste e il Carso nelle tavole di Achille Beltrame della  «Domenica del Corriere» (1915-1918), All'insegna del pesce d'oro, Milano 1968, pp. 10-16.
+					Prefazione a D. Manzella, L'incontro giusto, Bietti, Milano 1968.
+					Prefazione a W. Disney, Vita e dollari di Paperon de' Paperoni, Mondadori, Milano 1968.
+					Introduzione ad A. Sala, Il giusto verso, Rusconi, Milano 1970.
+					Un nobile addio, introduzione a W. Bonatti, I giorni grandi, Mondadori, Milano 1971.
+					Prefazione a E.R. Burroughs, Tarzan delle scimmie, Giunti, Firenze 1971.
+					Prefazione ad A. Pasetti, L'ora delle lucertole, Bietti, Milano 1971.
+					Il giornale segreto, con prefazione di G. Schiavi, Fondazione Corriere della Sera, Rizzoli, Milano 2006.</p>
+				</div>
+
+				<div type="sottosezione" n="4.7">
+					<head>Lettere</head>
+					<p>D. Buzzati, lettere a Brambilla, a cura di L. Simonelli, De Agostini, Novara 1985 (cfr. M. Depaoli, Il «Fondo Buzzati», in  «Autografo», vol. VII, n.s., n. 19, febbraio 1990, pp. 101-108).
+					-, Il figlio della notte, Lettere inedite di Dino Buzzati ad Arturo Brambilla, a cura di M. Depaoli, in «Autografo», vol. VIII, n.s., n. 23, giugni 1991, pp. 50-67.
+					N. Giannetto, Uno scambio di lettere fra Calvino e Buzzati, in «Studi buzzatiani», II, 1997, pp. 164-72.
+					-,  «Di solito ciò che si scrive su di me mi annoia terribilmente...»: una lettera inedita di Buzzati sul libro dedicatogli da Gianfranceschi, in «Studi buzzatiani», II, 1997, pp. 164-72.
+					-,  «Sono arrivato all'ultimo capitolo...»: una preziosa lettera di Dino Buzzati a Franco Mandelli a proposito di «Un amore», in «Studi buzzatiani», VI, 2001, pp. 95-98.</p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div type="racconto">
+				<head>I sette messaggeri</head>
+				<p>[inserire testo]</p>
+			</div>
+
+			<div type="racconto">
+				<head>L'assalto al grande convoglio.</head>
+				<p>[inserire testo]</p>
+			</div>
+
+			<div type="racconto">
+				<pb n="23"/>
+				<head> Sette piani </head>
+				<p> Dopo un giorno di viaggio in treno, <name type="persona" xml:id="GC">Giuseppe Corte</name> arrivò, <date when="--03">una mattina di marzo</date>, alla città dove c’era la famosa casa di cura. Aveva un po’ di febbre, ma volle fare ugualmente a piedi la strada fra la stazione e l’ospedale, portandosi la sua valigetta. Benché avesse soltanto una leggerissima forma incipiente, <name ref="#GC">Giuseppe Corte</name> era stato consigliato di rivolgersi al celebre sanatorio, dove non si curava che quell’unica malattia. Ciò garantiva un’eccezionale competenza nei medici e la più razionale ed efficace sistemazione d’impianti. Quando lo scorse da lontano – e lo riconobbe per averne già visto la fotografia in una circolare pubblicitaria <name ref="#GC">Giuseppe Corte</name> ebbe un’ottima impressione. Il bianco edificio a sette piani era solcato da regolari rientranze che gli davano una fisionomia vaga d’albergo. Tutt’attorno era una cinta di alti alberi. Dopo una sommaria visita medica, in attesa di un esame più accurato <name ref="#GC">Giuseppe Corte</name> fu messo in una gaia camera del <num type="ordinale" value="7">settimo</num> ed ultimo piano. I mobili erano chiari e lindi come la tappezzeria, le poltrone erano di legno, i cuscini vestiti di policrome stoffe. La vista spaziava su uno dei più bei quartieri della città. Tutto era tranquillo, ospitale e rassicurante. <name ref="#GC">Giuseppe Corte</name> si mise subito a letto e, accesa la lampadina sopra il capezzale, cominciò a leggere un libro che aveva portato con sé. Poco dopo entrò un’infermiera per chiedergli se desiderasse qualcosa. <name ref="#GC">Giuseppe Corte</name> non desiderava nulla ma si mise volentieri <pb n="24"/> a discorrere con la giovane, chiedendo informazioni sulla casa di cura. Seppe così la strana caratteristica di quell’ospedale. I malati erano distribuiti piano per piano a seconda della gravità. Il <num type="ordinale" value="7">settimo</num>, cioè l’ultimo, era per le forme leggerissime. Il <num type="ordinale" value="6">sesto</num> era destinato ai malati non gravi ma neppure da trascurare. Al <num type="ordinale" value="5">quinto</num> si curavano già affezioni serie e così di seguito, di piano in piano. Al <num type="ordinale" value="2">secondo</num> erano i malati gravissimi. Al <num type="ordinale" value="1">primo</num> quelli per cui era inutile sperare. Questo singolare sistema, oltre a sveltire grandemente il servizio, impediva che un malato leggero potesse venir turbato dalla vicinanza di un collega in agonia, e garantiva in ogni piano un’atmosfera omogenea. D’altra parte la cura poteva venir così graduata in modo perfetto. Ne derivava che gli ammalati erano divisi in <num type="cardinal" value="7">sette</num> progressive caste. Ogni piano era come un piccolo mondo a sé, con le sue particolari regole, con le sue speciali tradizioni. E siccome ogni settore era affidato a un medico diverso, si erano formate, sia pure minime, ma precise differenze nei metodi di cura, nonostante il direttore generale avesse impresso all’istituto un unico fondamentale indirizzo. Quando l’infermiera fu uscita, <name ref="#GC">Giuseppe Corte</name>, sembrandogli che la febbre fosse scomparsa, raggiunse la finestra e guardò fuori, non per osservare il panorama della città, che pure era nuova per lui, ma nella speranza di scorgere, attraverso le finestre, altri ammalati dei piani inferiori. La struttura dell’edificio, a grandi rientranze, permetteva tale genere di osservazione. Soprattutto <name ref="#GC">Giuseppe Corte</name> concentrò la sua attenzione sulle finestre del primo piano che sembravano lontanissime, e che si scorgevano solo di sbieco. Ma non poté vedere nulla di interessante. Nella maggioranza erano ermeticamente sprangate dalle grigie persiane scorrevoli. Il Corte si accorse che a una finestra di fianco alla sua stava affacciato <rs xml:id="sconosciuto">un uomo</rs>. I <num type="cardinal" value="2">due</num> si guardarono a lungo con crescente simpatia, ma non sapevano come rompere il silenzio. Finalmente <name ref="#GC">Giuseppe Corte</name> si fece coraggio e disse: <q type="parlato" who="#GC">«Anche lei sta qui da poco?»</q> <q type="parlato" who="#sconosciuto">«Oh no»</q> fece l’altro <q type="parlato" who="#sconosciuto">«sono qui già da due mesi…»</q> tacque qual<pb n="25"/>che istante e poi, non sapendo come continuare la conversazione, aggiunse: <q type="parlato" who="#sconosciuto">«Guardavo giù mio fratello.»</q> <q type="parlato" who="#GC">«Suo fratello?»</q> <q type="parlato" who="#sconosciuto">«Sì»</q> spiegò lo sconosciuto. <q type="parlato" who="#sconosciuto">«Siamo entrati insieme, un caso veramente strano, ma lui è andato peggiorando, pensi che adesso è già al <num type="ordinale" value="4">quarto</num>.»</q> <q type="parlato" who="#GC">«Al <num type="ordinale" value="4">quarto</num> che cosa?»</q> <q type="parlato" who="#sconosciuto">«Al <num type="ordinale" value="4">quarto</num> piano»</q> spiegò l’individuo e pronunciò le due parole con una tale espressione di commiserazione e di orrore, che <name ref="#GC">Giuseppe Corte</name> restò quasi spaventato. <q type="parlato" who="#GC">«Ma son così gravi al <num type="ordinale" value="4">quarto</num> piano?»</q> domandò cautamente. <q type="parlato" who="#sconosciuto">«Oh Dio»</q> fece l’altro scuotendo lentamente la testa <q type="parlato" who="#sconosciuto">«non sono ancora così disperati, ma c’è comunque poco da stare allegri.»</q> <q type="parlato" who="#GC">«Ma allora»</q> chiese ancora il Corte, con una scherzosa disinvoltura come di chi accenna a cose tragiche che non lo riguardano <q type="parlato" who="#GC">«allora, se al <num type="ordinale" value="4">quarto</num> sono già così gravi, al <num type="ordinale" value="1">primo</num> chi mettono allora?»</q> <q type="parlato" who="#sconosciuto">«Oh, al <num type="ordinale" value="1">primo</num> sono proprio i moribondi. Laggiù i medici non hanno più niente da fare. C’è solo il prete che lavora. E naturalmente…»</q> <q type="parlato" who="#GC">«Ma ce n’è pochi al <num type="ordinale" value="1">primo</num> piano»</q> interruppe <name ref="#GC">Giuseppe Corte</name>, come se gli premesse di avere una conferma <q type="parlato" who="#GC">«quasi tutte le stanze sono chiuse laggiù.»</q> <q type="parlato" who="#sconosciuto">«Ce n’è pochi, adesso, ma stamattina ce n’erano parecchi»</q> rispose lo sconosciuto con un sottile sorriso. <q type="parlato" who="#sconosciuto">«Dove le persiane sono abbassate là qualcuno è morto da poco. Non vede, del resto, che negli altri piani tutte le imposte sono aperte? Ma mi scusi»</q> aggiunse ritraendosi lentamente <q type="parlato" who="#sconosciuto">«mi pare che cominci a far freddo. Io ritorno in letto. Auguri, auguri…»</q> L’uomo scomparve dal davanzale e la finestra venne chiusa con energia; poi si vide accendersi dentro una luce. <name ref="#GC">Giuseppe Corte</name> se ne stette ancora immobile alla finestra fissando le persiane abbassate del <num type="ordinale" value="1">primo</num> piano. Le fissava con un’intensità morbosa, cercando di immaginare i funebri segreti di quel terribile primo piano dove gli ammalati venivano confinati a morire; e si sentiva sollevato di sapersene così lontano. Sulla città scendevano intanto le ombre della sera. Ad una ad una le <num type="cardinal" value="1000">mil<pb n="26"/>le</num> finestre del sanatorio si illuminavano, da lontano si sarebbe potuto pensare a un palazzo in festa. Solo al <num type="ordinale" value="1">primo</num> piano, laggiù in fondo al precipizio, <num type="ordinale" value="10">decine</num> e <num type="ordinale" value="10">decine</num> di finestre rimanevano cieche e buie. </p>
+
+				<p>[inserire altri paragrafi racconto]</p>
+			</div>
+			<div type="racconto">
+				<head>Eppure battono alla porta</head>
+				<p>[inserire tutti gli altri racconti]</p>
+			</div>
+		</body>	
+		<back>
+			<div type="sezione">
+				<head>Indice</head>
+				<div type="sottosezione">
+					<head>Dino Buzzati</head>
+					<list xmlns="http://www.tei-c.org/ns/1.0">
+						<item>V. La vita</item>
+						<item>VIII. Le opere</item>
+						<item>XII. La fortuna</item>
+						<item>XIV. Bibliografia</item>
+					</list>
+				</div>
+				<div type="sottosezione">
+					<head>La boutique del mistero</head>
+					<list xmlns="http://www.tei-c.org/ns/1.0">
+						<item>3. I sette messaggeri</item>
+						<item>8. L'assalto al grande convoglio</item>
+						<item>23. Sette piani</item>
+						<item>39. Eppure battono alla porta</item>
+						<item>52. Il mantello</item>
+						<item>57. Una cosa che comincia per elle</item>
+						<item>65. Una goccia</item>
+						<item>68. La canzone di guerra</item>
+						<item>73. La fine del mondo </item>
+						<item>77. Inviti superflui</item>
+						<item>81. Racconto di Natale</item>
+						<item>85. Il cane che ha visto Dio</item>
+						<item>112. Qualcosa era successo</item>
+						<item>117. I topi</item>
+						<item>123. Il disco si posò</item>
+						<item>129. Il tiranno malato</item>
+						<item>135. I Santi</item>
+						<item>140. Lo scarafaggio</item>
+						<item>143. Conigli sotto la luna</item>
+						<item>145. Questioni ospedaliere</item>
+						<item>148. Il corrodoio del grande albergo</item>
+						<item>152. Ricordo di un poeta</item>
+						<item>156. Il colombre</item>
+						<item>162. L'umiltà</item>
+						<item>168. Riservatissima al signor direttore</item>
+						<item>175. Le gobbe nel giardino</item>
+						<item>180. L'uovo</item>
+						<item>187. La giacca stregata</item>
+						<item>193. La Torre Eiffel</item>
+						<item>199. Ragazza che precipita</item>
+						<item>204. I due autisti</item>
+					</list>
+				</div>
+			</div>
+		</back>
+	</text>
+</TEI>

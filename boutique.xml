@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mp:metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:mp="http://ilmioprogetto.it">
+	<dc:title>La boutique del mistero</dc:title>
+	<dc:creator>Buzzati, Dino</dc:creator>
+	<dc:subject mp:type="dewey">853.912 Narrativa italiana, 1900-1945</dc:subject>
+	<dc:subject>Racconti, realismo fantastico</dc:subject>
+	<dc:subject mp:type="categoria">Narrativa</dc:subject>
+	<dc:description>Trentuno racconti, scelti e ordinati da Dino Buzzati «nella speranza di far conoscere il meglio di quanto ho scritto», compongono questa raccolta. Racconti (celeberrimi Il colombre, I sette messaggeri, Sette piani, Il mantello) in cui allegorie inquietanti, spunti surreali, invenzioni fantastiche coesistono con dati di cronaca, o presunti tali, che sembrano rimandare a possibili realtà metafisiche. Il racconto è infatti per Buzzati un momento di indagine profonda ed emozionante in un’atmosfera magica: poche volte, nella letteratura italiana, uno scrittore ha esplorato così a fondo il mistero che circonda l’uomo, le debolezze e i paradossi che lo caratterizzano, la sua solitudine, le sue esperienze.</dc:description>
+	<dc:publisher>Milano, Oscar Mondadori</dc:publisher>
+	<dc:contributor mp:type="coverdesign">LEFTLOFT</dc:contributor>
+	<dc:date mp:type="created">2018</dc:date>
+	<dc:type>Text</dc:type>
+	<dc:format>HTML</dc:format>
+	<dc:identifier>iccu:4471538</dc:identifier>
+	<dc:language>Italiano</dc:language>
+	<dc:relation>Free Access Foundation Classics Collection</dc:relation>
+	<dc:coverage>Italia</dc:coverage>
+	<dc:rights>Free Access Foundation, CC-BY, Creative Commons Attribuzione 3.0 internazionale</dc:rights>
+	<dc:rights>http://ilmioprogetto.it/licenze</dc:rights>
+</mp:metadata>

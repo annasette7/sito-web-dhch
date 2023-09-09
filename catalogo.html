@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Nel mistero di Dino Buzzati</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="stile/stile.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet'/>
+	<link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'/>
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+
+</head>
+
+<body class="catalogo">
+
+	<!--Bottone per tornare su-->
+	<button onclick="topFunction()" id="myBtn" title="Torna su">Top</button>
+
+	<!--Elemento header per la testata della pagina-->
+	<header>
+
+		<!--Elemento nav per il menu di navigazione-->
+		<nav>
+			<ul>
+				<li><a class="fungo" href="index.html" target="_self"/><img title="Home" alt="Fungo disegnato da Buzzati" class="logo" src="img/favicon.ico"></a></li>
+				<li><a class="categoria" href="index.html">Home</a></li>
+		  		<li><a class="categoria" href="#vita">Vita</a></li>
+		  		<li><a class="categoria" href="#catalogo-opere">Opere</a></li>
+		  		<li><a class="categoria" href="#temi">Temi</a></li>
+		  		<li><a class="categoria" href="#catalogo" id="active">Catalogo</a></li>
+		  		<li><a class="categoria" id="accesso" href="#accesso">Accedi / Iscriviti</a></li>
+	  			<!--Collapsed sidebar-->
+	  			<div id="mySidepanel" class="sidepanel">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="sidepanel-link">
+						<a href="#">Chi siamo</a>
+						<a href="#">Servizi</a>
+						<a href="#">Sostienici!</a>
+						<a href="#">Contatti</a>
+					</div>
+				</div>
+				<button class="openbtn" onclick="openNav()">&#9776;</button>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="pagina-catalogo">
+
+		<div class="titolo-catalogo">
+			<h2>Catalogo</h2>
+		</div>
+
+
+		<div class="container-catalogo">
+
+			<!--Barra navigazione catalogo-->
+			<div class="classi-catalogo">
+				<!-- Nav tabs -->
+			  	<ul class="nav nav-tabs nav-justified" role="tablist">
+			    	<li class="nav-item">
+			      		<a class="nav-link active" data-toggle="tab" href="#home">Tutti</a>
+			    	</li>
+
+			    	<li class="nav-item">
+			      		<a class="nav-link" data-toggle="tab" href="#">Narrativa</a>
+			    	</li>
+
+			    	<li class="nav-item">
+			      		<a class="nav-link" data-toggle="tab" href="#">Giornalismo</a>
+			    	</li>
+
+			    	<li class="nav-item">
+			      		<a class="nav-link" data-toggle="tab" href="#">Pittura</a>
+			    	</li>
+
+			    	<li class="nav-item">
+			      		<a class="nav-link" data-toggle="tab" href="#">Musica</a>
+			    	</li>
+
+			    	<li class="nav-item">
+			      		<a class="nav-link" data-toggle="tab" href="#">Articoli</a>
+			    	</li>
+			 	</ul>
+
+			  	<!-- Tab panes -->
+			  	<div class="tab-content">
+			    	<div id="home" class="container tab-pane active"><br>
+			      		<div class="item-catalogo completo">
+
+			      		<!--Item prima riga-->	
+			      			<div class="prima row-catalogo">
+
+							  <div class="column-catalogo">
+							  	<div class="prima card catalogo">
+							  		
+								  	<img src="img/boutique-mistero.png" alt="La boutique del mistero">
+								  	<div class="overlay"><a class="pagina-item" href="item.html" target="_blank">La boutique del mistero</a></div>
+								  	
+								</div>
+							  </div>
+
+							  <div class="column-catalogo">
+							  	<div class="seconda card catalogo">
+								  <img src="img/fine-mondo.png" alt="Una fine del mondo">
+								  <div class="overlay"><a class="pagina-item" href="#" target="_blank">Una fine del mondo</a></div>
+								</div>
+							  </div>
+
+							  <div class="column-catalogo">
+							  	<div class="terza card catalogo">
+								  <img src="img/premio-strega.png" alt="Premio Strega">
+								  <div class="overlay"><a class="pagina-item" href="#" target="_blank">Premio Strega</a></div>
+								</div>
+							  </div>
+
+							</div>
+
+							<!--Item seconda riga-->
+							<div class="seconda row-catalogo">
+
+							  <div class="column-catalogo">
+							  	<div class="quarta card catalogo">
+									<img src="img/cronaca-liberazione.png" alt="Corriere della Sera">
+									<div class="overlay"><a class="pagina-item" href="#" target="_blank">Cronaca di ore memorabili</a></div>
+								</div>
+							  </div>
+
+							  <div class="column-catalogo">
+							  	<div class="quinta card catalogo">
+								  <img src="img/un-amore-film.png" alt="Film Un amore">
+								  <div class="overlay"><a class="pagina-item" href="#" target="_blank">Gianni Vernuccio, Un amore</a></div>
+								</div>
+							  </div>
+
+							  <div class="column-catalogo">
+							  	<div class="sesta card catalogo">
+								  <img src="img/il-mantello.png" alt="Il mantello">
+								  <div class="overlay"><a class="pagina-item" href="#" target="_blank">Il mantello</a></div>
+								</div>
+							  </div>
+
+							</div>
+
+							<!--Item terza riga-->
+							<div class="terza row-catalogo">
+
+							  <div class="column-catalogo">
+							  	<div class="settima card catalogo-opere">
+								  <img src="img/sessanta-racconti.png" alt="Sessanta racconti">
+								  <div class="overlay"><a class="pagina-item" href="#" target="_blank">Sessanta racconti</a></div>
+								</div>
+							  </div>
+
+							  <div class="column-catalogo">
+							  	<div class="ottava card catalogo">
+								  <img src="img/la-via.png" alt="La via">
+								  <div class="overlay"><a class="pagina-item" href="#" target="_blank">La via</a></div>
+								</div>
+							  </div>
+
+							  <div class="column-catalogo">
+							  	<div class="nona card catalogo">
+								  <img src="img/articolo.png" alt="Stefano Reitano, Il cursus nella prosa magica di Dino Buzzati ">
+								  <div class="overlay"><a class="pagina-item" href="#" target="_blank">Il cursus nella prosa magica di Dino Buzzati </a></div>
+								</div>
+							  </div>
+
+							</div>
+						</div>
+			    	</div>
+
+			    	<div id="narrativa" class="container tab-pane fade"><br>
+			      		<div class="item-catalogo">
+				
+						</div>
+			   	 	</div>
+
+			    	<div id="giornalismo" class="container tab-pane fade"><br>
+			      		<div class="item-catalogo">
+				
+						</div>
+			    	</div>
+
+			    	<div id="pittura" class="container tab-pane fade"><br>
+			      		<div class="item-catalogo">
+				
+						</div>
+			    	</div>
+
+			    	<div id="musica" class="container tab-pane fade"><br>
+			      		<div class="item-catalogo">
+				
+						</div>
+			    	</div>
+
+			    	<div id="omaggi" class="container tab-pane fade"><br>
+			      		<div class="item-catalogo">
+				
+						</div>
+			    	</div>
+			  	</div>
+			</div>
+		</div>
+	</section>
+
+	<aside>
+
+		<div class="container-catalogo">
+			<div class="contenitore-principale">
+
+				<!--Posizione nel catalogo-->
+				<ul class="breadcrumb catalogo">
+					<li class="briciole"><a href="index.html" class="breadcrumb unactive">Home</a></li>
+					<li class="briciole"><a href="#" class="breadcrumb catalogo active">Catalogo</a></li>
+				</ul>
+				
+					<!--Filtra per categoria-->
+				
+					<div class="sidenav-catalogo">
+	
+						<div class="dropdown dropright mt-1">
+                                <button class="btn btn-primary btn-primary btn-lg dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Ordina
+                                </button>
+                                <div class="dropdown-menu p-3">
+                                    <!-- checkbox -->
+                                    <input type="checkbox">
+                                    <label>Alfabetico A-Z</label><br>
+                                    <input type="checkbox">
+                                    <label>Alfabetico Z-A</label><br>
+                                    <input type="checkbox">
+                                    <label>Cronologico ascendente</label><br>
+                                    <input type="checkbox">
+                                    <label>Cronologico discendente</label><br>
+                                    <button type="button" class="btn btn-primary mt-2">Filtra</button>
+                                </div>
+                            </div>
+                            <div class="dropdown dropright mt-1">
+                                <button class="btn btn-primary btn-blue btn-lg dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Anni
+                                </button>
+                                <div class="dropdown-menu p-3">
+                                    <!-- checkbox -->
+                                    <input type="checkbox">
+                                    <label>1920</label><br>
+                                    <input type="checkbox">
+                                    <label>1930</label><br>
+                                    <input type="checkbox">
+                                    <label>1940</label><br>
+                                    <input type="checkbox">
+                                    <label>1950</label><br>
+                                    <input type="checkbox">
+                                    <label>1960</label><br>
+                                    <input type="checkbox">
+                                    <label>1970</label><br>
+                                    <input type="checkbox">
+                                    <label>1980</label><br>
+                                    <input type="checkbox">
+                                    <label>1990</label><br>
+                                    <input type="checkbox">
+                                    <label>2000</label><br>
+                                    <input type="checkbox">
+                                    <label>2010</label><br>
+                                    <button type="button" class="btn btn-blue mt-2">Filtra</button>
+                                </div>
+                            </div>
+                            <div class="dropdown dropright mt-1">
+                                <button class="btn btn-primary btn-info btn-lg dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Persone
+                                </button>
+                                <div class="dropdown-menu p-3">
+                                    <!-- checkbox -->
+                                    <input type="checkbox">
+                                    <label>Dino Buzzati</label><br>
+                                    <input type="checkbox">
+                                    <label>Valerio Zurlini</label><br>
+                                    <input type="checkbox">
+                                    <label>Giovanni Verrucci</label><br>
+                                    <input type="checkbox">
+                                    <label>Salvatore Fiume</label><br>
+                                    <input type="checkbox">
+                                    <label>Stefano Reitano</label><br>
+                                    <button type="button" class="btn btn-info mt-2">Filtra</button>
+                                </div>
+                            </div>
+                        	<div class="dropdown dropright mt-1">
+                                <button class="btn btn-primary btn-info btn-lg dropdown-toggle" type="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Supporto
+                                </button>
+                                <div class="dropdown-menu p-3">
+                                    <!-- checkbox -->
+                                    <input type="checkbox">
+                                    <label>Cartaceo</label><br>
+                                    <input type="checkbox">
+                                    <label>Digitale</label><br>
+                                    <input type="checkbox">
+                                    <label>Audio</label><br>
+                                    <input type="checkbox">
+                                    <label>Video</label><br>
+                                    <input type="checkbox">
+                                    <label>Scaricabili</label><br>
+                                    <button type="button" class="btn btn-info mt-2">Filtra</button>
+                                </div>
+                            </div>
+						</div>
+					</div>
+			</div>
+		</div>	
+	</aside>
+	
+	<section class="pagina-catalogo">
+		<!--Bottoni cambio pagina-->
+		<div class="bottoni-catalogo">
+			<ul class="pagination">
+			    <li class="page-item disabled"><a class="page-link" href="#">Precedente</a></li>
+			    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+			    <li class="page-item"><a class="page-link" href="#">2</a></li>
+			    <li class="page-item"><a class="page-link" href="#">3</a></li>
+			    <li class="page-item"><a class="page-link" href="#">Successiva</a></li>
+			</ul>		
+		</div>
+	</section>
+
+	<section>
+		<!--Sezione per i temi buzzatiani-->
+		<div class="scegli-tema">
+			<h2 id="temi">I temi dell'autore</h2>
+			<div class="scroll-container">
+			  	<img src="img/dolomiti.png" alt="Paesaggio dolomitico" title="Paesaggio dolomitico">
+			  	<div class="primo tema"><a href="#">Il paesaggio dolomitico</a></div>
+			  	<img src="img/realismo-fantastico.png" alt="Eduardo Martinez, El Políptico de los Iluminados" title="Eduardo Martinez, El Políptico de los Iluminados">
+			  	<div class="secondo tema"><a href="#">Il realismo fantastico</a></div>
+			  	<img src="img/dorè-divinacommedia.png" alt="Gustave Doré, Inferno XXI" title="Gustave Doré, Inferno XXI">
+			  	<div class="terzo tema"><a href="#">Il grottesco</a></div>
+			  	<img src="img/bestiari.png" alt="L'adorazione del Dragone dell'Apocalisse" title="L'adorazione del Dragone dell'Apocalisse">
+			  	<div class="quarto tema"><a href="#">Il bestiario di Buzzati</a></div>
+			</div>
+		</div>
+	</section>
+
+	<!--Elemento footer per il piede di pagina-->
+	<footer>
+
+		<div class="primo-footer">
+			<div class="first-column">
+				<h3>Chi siamo</h3>
+				<p><em>Nel mistero di Dino Buzzati. In limine tra realtà e fantastico</em> è un progetto monografico della <a href="#">Open Access Foundation</a> che indaga il lascito di uno tra i più grandi autori italiani del '900, Dino Buzzati. Crediamo in una modernità in cui la cultura sia accessibile a tutte le persone per permettere, in questo modo, la migliore forma di preservazione di ogni patrimonio culturale.</p>
+			</div>
+
+		  	<div class="second-column">
+		    	<h3>Sezioni utili</h3>
+		    	<ul class="sezione-footer">
+		    		<li class="sezione-footer"><a href="#">Chi siamo</a></li><br>
+		    		<li class="sezione-footer"><a href="#">Servizi</a></li><br>
+		    		<li class="sezione-footer"><a href="#">Collabora con noi</a></li><br>
+		    		<li class="sezione-footer"><a href="#">Credits | License </a></li><br>
+		    	</ul>
+		  	</div>
+
+		  	<div class="third-column">
+		  		<h3>Aiuto</h3>
+		  		<ul class="sezione-footer">
+		  			<li class="sezione-footer"><a href="">Aiuto</a></li><br>
+		    		<li class="sezione-footer"><a href="">Termini di utilizzo</a></li><br>
+		    		<li class="sezione-footer"><a href="">Informativa sulla privacy</a></li><br>
+		    		<li class="sezione-footer"><a href="">Accessibilità</a></li><br>
+		    		<li class="sezione-footer"><a href="">Cookie</a></li><br>
+		    		<li class="sezione-footer"><a href="">Domande frequenti</a></li><br>
+		  		</ul>
+		  	</div>
+
+			<!--Sezione per social-->
+			<div class="social">
+				<h3>Contatti</h3><br>
+				<a href="#" class="fa fa-facebook" id="social"></a>
+				<a href="#" class="fa fa-twitter" id="social"></a>
+				<a href="#" class="fa fa-google" id="social"></a>
+				<a href="#" class="fa fa-linkedin" id="social"></a>
+				<a href="#" class="fa fa-youtube" id="social"></a>
+				<a href="#" class="fa fa-instagram" id="social"></a>
+				<a href="#" class="fa fa-pinterest" id="social"></a>
+			</div>
+		</div>
+		<hr class="footer">
+
+		<!--Riga finale-->
+		<div class=riga-finale>
+			<p>&copy;Copyright Anna Sette 2023 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</div>
+	</footer>
+	
+	<!--script-->
+	<script src="js/main.js"></script>
+	<!--jQuery-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!--Popper.js-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<!--libreria Bootstrap JS-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+	<!--Bootstrap JS-->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>	
+</body>
+</html>

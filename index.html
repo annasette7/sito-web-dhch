@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Nel mistero di Dino Buzzati</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="stile/stile.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet'/>
+	<link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'/>
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+
+	<!--Metadati dublincore xml-->
+	<META NAME="DC.Title" CONTENT="Nel mistero di Dino Buzzati">
+	<META NAME="DC.Creator" CONTENT="Anna Sette">
+	<META NAME="DC.Subject" CONTENT="Buzzati, vita, opere, romanzi, pittura, giornali">
+	<META NAME="DC.Description" CONTENT="Sito monografico dedicato a tutta la produzione di Dino Buzzati">
+	<META NAME="DC.Publisher" CONTENT="Università di Bologna">
+	<META NAME="DC.Date" CONTENT="2023">
+	<META NAME="DC.Type" CONTENT="Sito web">
+	<META NAME="DC.Format" CONTENT="HTML">
+	<META NAME="DC.Identifier" CONTENT="TBD una volta che sia pubblicato">
+	<META NAME="DC.Language" CONTENT="Italiano">
+	<META NAME="DC.Rights" CONTENT="Accesso libero creative commons">
+</head>
+
+<body class="index">
+
+	<!--Bottone per tornare su-->
+	<button onclick="topFunction()" id="myBtn" title="Torna su">Top</button>
+
+	<!--Elemento header per la testata della pagina-->
+	<header>
+
+		<!--Elemento nav per il menu di navigazione-->
+		<nav>
+			<ul>
+				<li><a class="fungo" href="index.html" target="_self"/><img title="Home" alt="Fungo disegnato da Buzzati" class="logo" src="img/favicon.ico"></a></li>
+				<li><a class="categoria" href="#home" id="active">Home</a></li>
+		  		<li><a class="categoria" href="#vita">Vita</a></li>
+		  		<li><a class="categoria" href="#catalogo-opere">Opere</a></li>
+		  		<li><a class="categoria" href="#temi">Temi</a></li>
+				<li><a class="categoria" href="catalogo.html">Catalogo</a></li>
+				<li><a class="categoria" id="accesso" href="#accesso">Accedi / Iscriviti</a></li>
+	  			<!--Collapsed sidebar-->
+	  			<div id="mySidepanel" class="sidepanel">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="sidepanel-link">
+						<a href="#">Chi siamo</a>
+						<a href="#">Servizi</a>
+						<a href="#">Sostienici!</a>
+						<a href="#">Contatti</a>
+					</div>
+				</div>
+				<button class="openbtn" onclick="openNav()">&#9776;</button>
+			</ul>
+		</nav>
+	</header>
+
+	<!--Elemento section per la serie delle sezioni della pagina-->
+	<section>
+		<!--Fascia introduttiva-->
+		<div class="intro" id="intro"/>
+			<div class="logo">
+				<h1><img src="img/firma.png" alt="Firma di Buzzati" title="Firma di Buzzati" class="testata"/></h1>
+			</div>
+			<div class="testo-intro">
+				<p>In limine tra <strong>reale</strong> e <strong>fantastico</strong></p>
+			</div>
+			<div class="ricerca">
+				<form action="#">
+				<input type="text" placeholder="Ricerca..."  name="cerca"/>
+				<button class="ricerca" type="submit"><i class="fa fa-search"></i></button>
+			</div>
+		</div>
+
+		<!--Schermata come home de Il Tascabile-->
+		<div class="sezioni-pagina">
+			<div class="row-intro">
+				<div class="tempo-img">
+					<div class="column-intro" id="intro-tempo">
+						<a href="#tempo" class="sezione-tempo"/>
+							<h3>Esplora la linea del tempo!</h3>
+							<p></p>
+						</a>
+					</div>
+				</div>
+				<div class="opere-img">
+					<div class="column-intro" id="intro-login">
+						<a href="#login" class="sezione-login"/>
+							<h3>Fai il login!</h3>
+							<p></p>
+						</a>
+					</div>
+				</div>
+				<div class="eventi-img">
+					<div class="column-intro" id="intro-opere">
+						<a href="#opere" class="sezione-opere"/>
+							<h3>Sfoglia le opere!</h3>
+							<p></p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<!--Linea del tempo-->
+		<div class="tempo" id="tempo"/>
+			<h2>La vita di Dino Buzzati</h2>
+			<p><iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1Kgu1MkvWNOh_xub7UlZJ0WNOtevVoKAmXBvQWExYxN8&font=Default&lang=it&initial_zoom=2&height=650' width='100%' height='750' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe></p>
+		</div>
+	</section>
+
+	<section>
+		<!--Sezione per login-->
+		<div class="login-signup-container" id="login"/>
+			<h2>Fai l'accesso o iscriviti</h2>
+			<div class="login"/>
+				<div class="container">
+					<div class="signup-form">
+						<form action="/action_page.php">
+						 	<div class="container-registrati">
+						    	<h3>Registrati</h3>
+
+						    	<label for="email"><b>Email</b></label>
+						    	<input type="text" placeholder="Inserisci email" name="email" required>
+
+							    <label for="psw"><b>Password</b></label>
+							    <input type="password" placeholder="Inserisci password" name="psw" required>
+
+							    <label for="psw-repeat"><b>Ripeti Password</b></label>
+							    <input type="password" placeholder="Ripeti password" name="psw-repeat" required>
+						    
+							    <label>
+							      <input type="checkbox" checked="checked" name="remember"> Ricordati di me
+							    </label>
+						    
+						    	<p>Creando un account aderisci ai nostri <a href="#">Termini e Condizioni</a>.</p>
+
+						    	<div class="clearfix">
+						      		<button type="submit" class="signupbtn-signup">Registrami</button>
+						      		<button type="button" class="cancelbtn-signup">Annulla</button>
+						   		</div>
+						 	</div>
+						</form>
+					</div>
+					<div class="login-form">
+						<h3>Accedi</h3>
+						<form action="/action_page.php" method="post">
+							<div class="container-tuttologin">
+
+							  	<div class="container-nomeutente">
+							    	<label for="uname"><b>Nome utente</b></label>
+							    	<input type="text" placeholder="Inserisci nome utente" name="uname" required>
+
+							    	<label for="psw"><b>Password</b></label>
+							    	<input type="password" placeholder="Inserisci password" name="psw" required>
+							    	<span class="psw">Hai dimenticato la <a href="#">password</a>?</span>
+
+							    	<label>
+							    		<input type="checkbox" checked="checked" name="remember"> Ricordati di me
+							    	</label>
+							        
+							    	<button type="submit" class="signupbtn-login">Accedi</button>
+							  	</div>
+
+							  	<div class="container-annulla-login">
+							    	<button type="button" class="cancelbtn-login">Annulla</button>
+							  	</div>
+						  	</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<!--Opere di Buzzati-->
+		<div class="opere" id="opere"/>
+
+			<!--Carosello-->
+			<h2>Opere di Dino Buzzati</h2>
+			<div id="demo" class="carousel slide carousel-custom" data-ride="carousel">
+
+			  <!-- Indicators -->
+			  	<ul class="carousel-indicators">
+			    	<li data-target="#demo" data-slide-to="0" class="active"></li>
+			    	<li data-target="#demo" data-slide-to="1"></li>
+			    	<li data-target="#demo" data-slide-to="2"></li>
+			    	<li data-target="#demo" data-slide-to="3"></li>
+			    	<li data-target="#demo" data-slide-to="4"></li>
+			  	</ul>
+			  
+			  <!-- The slideshow -->
+			  	<div class="carousel-inner">
+			    	<div class="carousel-item active">
+			      		<img src="img/deserto-tartari.png" alt="Dino Buzzati, Il deserto dei tartari" width="277" height="178">
+			      		<div class="carousel-caption">
+					    	<h3><a href="#" class="button-sfoglia"><span>Sfoglialo ora!</span></a></h3>
+					  	</div>
+					</div>
+			    	<div class="carousel-item">
+			      		<img src="img/un-amore.png" alt="Dino Buzzati, Un amore" width="277" height="178">
+			      		<div class="carousel-caption">
+					    	<h3><a href="#" class="button-sfoglia"><span>Sfoglialo ora!</span></a></h3>
+					  	</div>
+			    	</div>
+			    	<div class="carousel-item">
+			      		<img src="img/invasione-orsi.png" alt="Dino Buzzati, La famosa invasione degli orsi in Sicilia" width="277" height="178">
+			      		<div class="carousel-caption">
+					    	<h3><a href="#" class="button-sfoglia"><span>Sfoglialo ora!</span></a></h3>
+					  	</div>
+			    	</div>
+			    	<div class="carousel-item">
+			    		<img src="img/sessanta-racconti.png" alt="Dino Buzzati, Sessanta Racconti" width="277" height="178">
+			    		<div class="carousel-caption">
+					    	<h3><a href="#" class="button-sfoglia"><span>Sfoglialo ora!</span></a></h3>
+					  	</div>
+			    	</div>
+			    	<div class="carousel-item">
+			    		<img src="img/boutique-mistero.png" alt="Dino Buzzati, La boutique del mistero" width="277" height="178">
+			    		<div class="carousel-caption">
+					    	<h3><a href="#" class="button-sfoglia"><span>Sfoglialo ora!</span></a></h3>	
+					  	</div>
+			    	</div>
+			  	</div>
+			  
+			  <!-- Left and right controls -->
+			  	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			    	<span class="carousel-control-prev-icon"></span>
+			  	</a>
+			  	<a class="carousel-control-next" href="#demo" data-slide="next">
+			    	<span class="carousel-control-next-icon"></span>
+			  	</a>
+			</div>
+			<div class="testo-carousel">
+				<h3>Opere letterarie</h3>
+				<p>Il catalogo di <em>Il mistero di Dino Buzzati</em> comprende anche le opere per cui Dino Buzzati è più conosciuto: i romanzi e i racconti. A sinistra è presente una panoramica delle opere più consultate e che possono essere lette, previa iscrizione o accesso, cliccando sul pulsante <em>Sfoglialo ora</em>. Si può anche consultare tutte le opere letterarie presenti nel catalogo del sito. Gli oggetti nel catalogo sono inoltre consultabili attraverso diverse categorie e criteri. <br>
+				<button class="button-click"><a class="opere-complete" href="#" id="opere-complete" />Opere complete</a></button>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!--Elemento footer per il piede di pagina-->
+	<footer>
+
+		<div class="primo-footer">
+			<div class="first-column">
+				<h3>Chi siamo</h3>
+				<p><em>Nel mistero di Dino Buzzati. In limine tra realtà e fantastico</em> è un progetto monografico della <a href="#">Open Access Foundation</a> che indaga il lascito di uno tra i più grandi autori italiani del '900, Dino Buzzati. Crediamo in una modernità in cui la cultura sia accessibile a tutte le persone per permettere, in questo modo, la migliore forma di preservazione di ogni patrimonio culturale.</p>
+			</div>
+
+		  	<div class="second-column">
+		    	<h3>Sezioni utili</h3>
+		    	<ul class="sezione-footer">
+		    		<li class="sezione-footer"><a href="#">Chi siamo</a></li><br>
+		    		<li class="sezione-footer"><a href="#">Servizi</a></li><br>
+		    		<li class="sezione-footer"><a href="#">Collabora con noi</a></li><br>
+		    		<li class="sezione-footer"><a href="#">Credits | License </a></li><br>
+		    	</ul>
+		  	</div>
+
+		  	<div class="third-column">
+		  		<h3>Aiuto</h3>
+		  		<ul>
+		  			<li class="sezione-footer"><a href="">Aiuto</a></li><br>
+		    		<li class="sezione-footer"><a href="">Termini di utilizzo</a></li><br>
+		    		<li class="sezione-footer"><a href="">Informativa sulla privacy</a></li><br>
+		    		<li class="sezione-footer"><a href="">Accessibilità</a></li><br>
+		    		<li class="sezione-footer"><a href="">Cookie</a></li><br>
+		    		<li class="sezione-footer"><a href="">Domande frequenti</a></li><br>
+		  		</ul>
+		  	</div>
+
+			<!--Sezione per social-->
+			<div class="social">
+				<h3>Contatti</h3><br>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-pinterest"></a>
+			</div>
+		</div>
+		<hr class="footer">
+
+		<!--Riga finale-->
+		<div class=riga-finale>
+			<p>&copy;Copyright Anna Sette 2023 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</div>
+	</footer>
+
+	<!--script-->
+	<script src="js/main.js"></script>
+	<!--jQuery-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!--Popper.js-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<!--libreria Bootstrap JS-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+	<!--Bootstrap JS-->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,1521 @@
+body.index {
+	background-image: url(../img/funghino.png);
+	background-repeat: repeat;
+	background-position: right;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+h2, h3, h4, p {
+	font-family: 'Archivo';
+}
+
+h2 {
+	text-align: center;
+}
+
+body h2 {
+	font-weight: bold;
+	font-variant-caps: small-caps;
+}
+
+body h3 {
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+header {
+	margin: auto;
+	background-color: #ffffcc;
+}
+
+/*Logo fungo*/
+img.logo {
+	height: 63px;
+	margin: 0 20px 0 0;
+	display: inline-block;
+}
+
+.fungo {
+	height: 63px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+/*Menu barra di navigazione*/
+nav {
+	margin: auto;
+	background-color: #8c2320;
+	overflow: hidden;
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	font-family: georgia, serif;
+}
+
+ul {
+	list-style-type: none;
+  margin: 0;
+	padding: 0;
+}
+
+li {
+  float: left;
+  display: inline-block;
+  border-right: 1px solid #ffffcc;
+}
+
+a.categoria {
+	display: block;
+}
+
+li a.categoria {
+	float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a.categoria:hover {
+	transition: 0.3s;
+	background-color: #ffffcc;
+	color: black;
+}
+
+#accesso {
+	font-style: oblique;
+}
+
+/*Pagina in cui ti trovi al momento nella nav*/
+#active {
+  color: white;
+  font-weight: bold;
+  background-color: #a62a26;
+}
+
+/* The sidepanel menu */
+.sidepanel {
+  height: 380px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  right: 0;
+  background-color: #8c2320;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 55px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  border-radius: 0 0 10px 10px;
+}
+
+/* The sidepanel links */
+.sidepanel a {
+	padding: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel-link {
+	padding: 15px;
+}
+
+.sidepanel .sidepanel-link a {
+  padding: 22px 0;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel-link a:hover {;
+	background-color: #ffffcc;
+	color: black;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 22px;
+  cursor: pointer;
+  background-color: #8c2320;
+  color: white;
+  padding: 15px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 25px;
+}
+
+.openbtn:hover {
+	font-weight: bold;
+}
+
+.closebtn {
+	padding: 8px;
+}
+
+.closebtn:hover {
+	font-weight: bold;
+	color: white;
+}
+
+.testata {
+	align-content: center;
+}
+
+/*Bottone per tornare su*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #8c2320; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #a62a26; /* Add a dark-grey background on hover */
+  font-weight: bold;
+}
+
+/*Fascia introduttiva di ricerca*/
+section {
+	margin-top: 55px;
+}
+
+.intro {
+	margin: auto;
+	color: black;
+	height: 565px;
+	background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Firma Buzzati*/
+img.testata {
+	vertical-align: middle;
+	margin-top: 50px;
+	padding-top: 20px;
+	border: whitesmoke;
+}
+
+.testo-intro {
+  font-family: 'Noto+Serif'; 
+  font-size: 22px;
+  font-style: oblique;
+	font-size: 30px;
+	letter-spacing: 10px;
+	padding-top: 75px;
+	color: black;
+}
+
+/*Barra ricerca e bottone*/
+.ricerca {
+	margin: 10px;
+	padding-top: 70px;
+}
+
+.ricerca input[type=text] {
+	width: 300px;
+	height: 70px;
+  padding: 6px;
+  margin-top: 8px;
+  font-family: 'Noto Serif';
+  font-size: 23px;
+  font-style: oblique;
+	letter-spacing: 2px;
+  border: none;
+  transition: width 2s;
+}
+
+.ricerca input:hover {
+	width: 500px;
+}
+
+.ricerca button.ricerca {
+  width: 80px;
+  height: 70px;
+  padding: 6px 10px;
+  background: #8c2320;
+  font-size: 23px;
+  border: none;
+  cursor: pointer;
+}
+
+.ricerca button.ricerca:hover {
+	border: solid;
+	transition: 0.2s;
+}
+
+/*Categorie navigazione*/
+.sezioni-pagina {
+	height: 200px;
+	margin: auto;
+	z-index: 1;
+}
+
+.row-intro a:hover, .closebtn:hover {
+	text-decoration: none;
+}
+
+.column-intro {
+  float: left;
+  width: 33.33%;
+  height: 200px;
+  display: flex; /* Usa flexbox per centrare il contenuto */
+  align-items: center; /* Centra verticalmente il contenuto */
+  justify-content: center; /* Centra orizzontalmente il contenuto */
+  text-align: center; /* Centra il testo all'interno dell'elemento */
+}
+
+/* Clear floats after the columns */
+.row-intro:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*immagini colonne*/
+#intro-tempo {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fine-mondo.png);
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex; /* Add this */
+  justify-content: center; /* Add this */
+}
+
+#intro-login {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/attacco-vescovo.png);
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex; /* Add this */
+  justify-content: center; /* Add this */
+}
+
+#intro-opere {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/opere.png);
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex; /* Add this */
+  justify-content: center; /* Add this */
+}
+
+/* Position text in the middle of the page/image */
+.row-intro h3 p {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffcc;
+  flex-direction: column; /* Add this */
+  justify-content: center; /* Add this */
+}
+
+/*Quando passo sopra col mouse ai link delle colonne*/
+.column-intro a {
+	color: white;
+}
+
+.column-intro a:hover {
+	color: white;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+/*Linea del tempo*/
+.tempo {
+	height: 800px;
+	background-color: #ffffcc;
+	padding-top: 100px;
+}
+
+.tempo h2 {
+	text-align: center;
+}
+
+.tempo p {
+	padding: 25px;
+}
+
+/*Sezione con login e signup*/
+.testo-login {
+	background-color: #ffffcc;
+	text-align: center; /* Centra il testo all'interno della div */
+  padding: 20px 0; /* Aggiungi spazio sopra e sotto il titolo */
+}
+
+/*Sezione con login e signup*/
+.login-signup-container {
+  margin: 20px auto;
+  width: 1000px; /* Imposta una larghezza massima per la sezione */
+  padding: 20px; /* Aggiunge spazio interno */
+  background-color: #ffffe6; /* Imposta il colore di sfondo della sezione */
+  border-radius: 10px; /* Aggiunge bordi arrotondati */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+}
+
+.login-signup-container h2 {
+	text-align: center;
+}
+
+.login {
+	background-color: #ffffcc;
+	display: flex;
+	align-items: center; /* Centra verticalmente i contenuti */
+  justify-content: center; /* Centra orizzontalmente i contenuti */
+  flex-direction: column;
+}
+
+.login h3 {
+	padding-bottom: 20px;
+}
+
+.container {
+	display: flex;
+	margin: 0 auto;
+}
+
+/*Form per login*/
+.login-form {
+  flex: 1; /* Occupa lo spazio rimanente (metà destra dello schermo) */
+  padding: 20px; /* Aggiungi spazio attorno alla sezione */
+  border: 1px solid #ccc;
+  margin-left: 20px;
+}
+
+.container-tuttologin {
+	padding-top: 50px;
+}
+
+.login input[type=text], .login input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.login button.signupbtn-login, .login button.cancelbtn-login {
+  background-color: #8c2320;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.login button.signupbtn-login:hover, .login button.cancelbtn-login:hover {
+  opacity: 1;
+}
+
+.cancelbtn-login {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+span.psw {
+  float: right;
+}
+
+/*Form per signup*/
+/* Aggiungi questa regola CSS per la prima colonna (signup-form) */
+.signup-form {
+  flex: 1; /* Occupa lo spazio rimanente (metà sinistra dello schermo) */
+  padding: 20px; /* Aggiungi spazio attorno alla sezione */
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.signup-form form {
+  max-width: 300px; /* Imposta la larghezza massima del form */
+  margin: auto; /* Centra il form all'interno della <div> */
+}
+
+/* Aggiungi questa regola CSS per i link nel form */
+.signup-form a {
+  text-align: center; /* Centra il testo dei link */
+  margin-top: 10px; /* Aggiungi spazio sopra i link */
+  color:dodgerblue
+}
+
+/* Aggiungi questa regola CSS per il testo di descrizione */
+.signup-form p {
+  font-size: 14px; /* Riduci la dimensione del testo */
+  text-align: center; /* Centra il testo */
+}
+
+/* Full-width input fields */
+.login input[type=text], .login input[type=password] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+
+.login input[type=text]:focus, .login input[type=password]:focus {
+  background-color: #f1f1f1;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.login button.cancelbtn-signup, .login button.signupbtn-signup {
+  background-color: #8c2320;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.login button.cancelbtn-signup:hover, .login button.signupbtn-signup:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn-signup {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/*Sezione opere*/
+.opere {
+	height: 640px;
+	overflow: hidden;
+	background-color: #ffffcc;
+	padding-top: 40px;
+}
+
+.opere h2 {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+/*Carosello*/
+.carousel-custom {
+  width: 277px; /* Imposta la larghezza massima desiderata */
+  margin-left: 10%; /* Imposta il margine superiore e inferiore a 20px, e il margine laterale a "auto" per centrare orizzontalmente */
+  float: left; /* Fluttua il carousel a sinistra */
+}
+
+.carousel-inner {
+	box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1), 0 16px 50px 0 rgba(0, 0, 0, 0.3);
+}
+
+.carousel-inner img {
+  width: 277px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.carousel-indicators {
+  background-color: transparent; /* Imposta lo sfondo trasparente */
+  list-style: none; /* Rimuove i punti elenco predefiniti */
+  padding: 0; /* Rimuove il padding predefinito */
+  margin: 0; /* Rimuove il margine predefinito */
+}
+
+.carousel-indicators li {
+  border: none; /* Rimuove il bordo predefinito */
+}
+
+.carousel-inner h3, .carousel-inner a {
+  color: white;
+  text-shadow: 4px 4px 6px #000000;
+
+}
+
+.carousel-inner a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.carousel-caption h3 {
+	letter-spacing: normal;
+}
+
+/*Bottone per aprire libro nel carousel*/
+.button-sfoglia {
+  border-radius: 4px;
+  background-color: #8c2320;
+  border: double;
+  border-color: whitesmoke;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button-sfoglia span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-sfoglia span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-sfoglia:hover span {
+  padding-right: 25px;
+}
+
+.button-sfoglia:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*Sezione di fianco carousel*/
+.testo-carousel {
+	height: 370px;
+	width: 600px;
+	float: right;
+	margin: 30px 100px 30px 0;
+	padding: 35px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: #A62A26;
+	background-color: #A62A26;
+	box-shadow: 0 14px 30px 0 rgba(0, 0, 0, 0.1), 0 16px 50px 0 rgba(0, 0, 0, 0.3);
+}
+
+/*Testo di fianco carousel*/
+.testo-carousel h3, .testo-carousel p {
+	color: white;
+}
+.testo-carousel p {
+	text-align: justify;
+	padding: 15px 0;
+}
+
+/*Bottone per aprire le opere complete*/
+.button-click {
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: black;
+  background-color: #ffff66;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 5px #ffffcc;
+  margin-top: 25px;
+  margin-left: 340px;
+}
+
+.button-click:hover {
+	background-color: #e6e600
+}
+
+.button-click:active {
+  background-color: #e6e600;
+  box-shadow: 4px 7px #ffff80;
+  transform: translateY(4px);
+}
+
+.button-click a {
+	text-decoration: none;
+	color: black;
+}
+
+.button-click a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+/*Pagina catalogo*/
+body.catalogo {
+	background-color: #ffffcc;
+	margin: 0;
+}
+
+.pagina-catalogo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.titolo-catalogo {
+	padding: 30px;
+}
+
+.tab-content {
+	background-image: url(../img/funghino.png);
+}
+
+.container-catalogo {
+	margin-left: 160px;
+}
+
+/*Categorie navigazione catalogo*/
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #8c2320 !important;
+	font-weight: bold;
+}
+
+.nav-tabs a {
+	color: black;
+}
+
+.nav-tabs a:hover {
+	color: black;
+}
+
+/*Colonne item catalogo*/
+.column-catalogo {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row-catalogo {
+	padding: 10px 40px;
+}
+
+/* Clear floats after the columns */
+.row-catalogo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Card item catalogo*/
+.card.catalogo {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card.catalogo:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.card.catalogo img {
+	max-height: 100%;
+	padding: 20px;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.prima.card:hover .overlay {
+  opacity: 1;
+}
+
+.seconda.card:hover .overlay {
+  opacity: 1;
+}
+
+.terza.card:hover .overlay {
+  opacity: 1;
+}
+
+.quarta.card:hover .overlay {
+  opacity: 1;
+}
+
+.quinta.card:hover .overlay {
+  opacity: 1;
+}
+
+.sesta.card:hover .overlay {
+  opacity: 1;
+}
+
+.settima.card:hover .overlay {
+  opacity: 1;
+}
+
+.ottava.card:hover .overlay {
+  opacity: 1;
+}
+
+.nona.card:hover .overlay {
+  opacity: 1;
+}
+
+.pagina-item {
+	color: white;
+	text-decoration: none;
+
+}
+
+.pagina-item:hover {
+	color: white;
+	font-style: oblique;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+/*Bottoni cambia pagina catalogo*/
+.bottoni-catalogo li {
+  /* Cambia il colore degli elementi <li> contenuti nella div con classe "bottoni-catalogo" */
+  color: #8c2320;
+}
+
+.bottoni-catalogo a {
+  /* Cambia il colore degli elementi <a> contenuti nella div con classe "bottoni-catalogo" */
+  color: black;
+}
+
+.pagination {
+	margin-top: 20px;
+}
+
+.page-item.active .page-link {
+  background-color: #8c2320 !important;
+  border-color: #8c2320 !important;
+  }
+
+.page-item.active a:hover {
+	font-weight: normal !important;
+}
+
+.bottoni-catalogo a:hover {
+  /* Cambia il colore degli elementi <a> contenuti nella div con classe "bottoni-catalogo" */
+  color: #8c2320;
+  background-color: white;
+  font-weight: bold;
+}
+
+/*Sezione esplora per temi*/
+.scegli-tema {
+	display: inline-block;
+}
+
+.scegli-tema a {
+	text-decoration: none;
+	color: white;
+}
+
+.scegli-tema a:hover {
+	font-style: oblique;
+	color: white;
+	text-decoration: none;
+	text-shadow: 2px 2px 5px #ffffff;
+}
+
+/*Galleria immagini temi catalogo*/
+div.scroll-container {
+  background-color: #225228;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  max-width: 100%;
+  height: 537px;
+  position: relative;
+	text-align: center;
+}
+
+div.scroll-container img {
+  margin: 0 40px;
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7);
+}
+
+.scegli-tema .scroll-container {
+	max-width: 100%;
+	overflow-x: auto;
+	white-space: nowrap;
+	padding: 30px;
+	margin: 0 40px 40px 40px;
+	height: 450px;
+}
+
+.tema {
+	position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  border: 10px solid #f1f1f1;
+  z-index: 2;
+  padding: 20px;
+  text-align: center;
+}
+
+.primo.tema {
+  top: 50%;
+  left: 30%;
+}
+
+.secondo.tema {
+  top: 50%;
+  left: 88%;
+}
+
+.terzo.tema {
+  top: 50%;
+  left: 149%;
+}
+
+.quarto.tema {
+  top: 50%;
+  left: 203%;
+}
+
+/*Parte laterale catalogo*/
+.breadcrumb {
+	background: none !important;
+	display: inline-block !important;
+}
+
+/* Stile del contenitore principale */
+.contenitore-principale {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Breadcrumbs laterali*/
+/* Style the list */
+ul.breadcrumb {
+	top: 165px;
+	left: 45px;
+  right: 25px;
+  padding: 10px 16px;
+  list-style: none;
+	padding-left: 0 !important;
+	position: absolute;
+	width: fit-content;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li.briciole {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li.briciole+li.briciole:before {
+  padding: 8px;
+  color: black;
+  content: ">";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li.briciole a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  margin: -20px;
+}
+
+/* Add a color on mouse-over */
+a.breadcrumb.unactive {
+	color: #8c2320 !important;
+}
+
+a:hover.breadcrumb.unactive {
+	color: #8c2320 !important;
+}
+
+a.breadcrumb.active {
+	color: black;
+	font-style: oblique;
+	pointer-events: none;
+}
+
+a:hover.breadcrumb.active {
+	color: black;
+	font-style: oblique;
+	text-decoration: none !important;
+}
+
+ul.breadcrumb li.briciole a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*Navigazione laterale catalogo*/
+.sidenav-catalogo {
+	position: absolute;
+	top: 220px;
+	left: 40px;
+}
+
+.btn {
+	background-color: #a62a26 !important;
+	border-color: #8c2320 !important;
+	margin: 5px 0 !important;
+}
+
+input[type=checkbox], input[type=radio] {
+	cursor: pointer;
+}
+
+/*Sezione footer*/
+footer {
+	background-color: #a62a26;
+	border: 1px solid #ffffcc;
+	border-radius: 30px 30px 0 0;
+	box-shadow: 9px -17px 2px #8c2320;
+	display: inline-block;
+}
+
+/*Prime due colonne footer*/
+.primo-footer {
+	display: inline-block;
+}
+
+.primo-footer h3, .primo-footer p {
+	color: white;
+}
+
+.first-column a {
+	color: white;
+	font-style: oblique;
+}
+
+.first-column a:hover {
+	text-decoration: underline;
+}
+
+/* Create three equal columns that floats next to each other */
+.first-column {
+	float: left;
+  width: 45%;
+  padding: 45px;
+  margin-top: 25px;
+}
+
+.second-column {
+	float: left;
+  width: 25%;
+  padding: 45px;
+  margin-top: 25px;
+}
+
+.third-column {
+	float: left;
+  width: 25%;
+  padding: 45px;
+  margin-top: 25px;
+}
+
+.first-column p {
+	justify-content: left;
+}
+
+/* Clear floats after the columns */
+.row.footer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Liste due colonne footer*/
+li.sezione-footer {
+	border: none;
+	padding: 4px;
+	float: none !important;
+}
+
+.sezione-footer a {
+	color: white;
+	text-decoration: none;
+}
+
+.sezione-footer a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+ul.sezione-footer {
+	margin-top: 15px;
+}
+
+/*Icone social*/
+.social {
+	width: 700px;
+	padding: 0 45px;
+	margin-top: -65px;
+	display: inline-block;
+}
+
+.social h3 {
+	display: inline-block;
+}
+
+.primo-footer p {
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.social a {
+  padding: 20px;
+  font-size: 20px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  border: 2px solid #ffffcc;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #8c2320;
+  color: white;
+}
+
+.fa-twitter {
+  background: #8c2320;
+  color: white;
+}
+
+.fa-google {
+  background: #8c2320;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #8c2320;
+  color: white;
+}
+
+.fa-youtube {
+  background: #8c2320;
+  color: white;
+}
+
+.fa-instagram {
+  background: #8c2320;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #8c2320;
+  color: white;
+}
+
+/*Link icone social*/
+footer a:hover {
+	text-decoration: none;
+	color: white;
+ }
+
+ hr.footer {
+ 	border-color: #ffffcc !important;
+ 	opacity: 0.5;
+ }
+
+/*Riga finale footer*/
+.riga-finale {
+	margin: auto;
+	color: white;
+	letter-spacing: 2px;
+	letter-spacing: 2px;
+	font-family: georgia, serif;
+}
+
+.riga-finale, .intro {
+	margin: auto;
+	text-align: center;
+}
+
+a:link, a: visited {
+	text-decoration: none;
+	color: black;
+}
+
+a.hover {
+	text-decoration: none;
+}
+
+/*Pagina con l'item*/
+body.item {
+	background-color: #ffffcc;
+	margin: 0;
+	background-image: url(../img/funghino.png);
+	background-attachment: fixed;
+}
+
+.intro-item {
+	background-color: #ffffcc;
+	height: 160px;
+}
+
+/*Titolo pagina item*/
+.titolo-item {
+	text-align: center;
+	padding-top: 25px;
+}
+
+/*Prima sezione dove c'è l'item*/
+
+
+.fila-critica {
+	position: relative;
+	width: 35%;
+	height: 600px;
+	padding: 17px 38px;
+	background-color: #ffffcc;
+}
+
+ul.critica {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  display: inline-grid;
+}
+
+ul.critica li.critica {
+  border: 1px solid #8c2320; /* Add a thin border to each list item */
+  margin-top: -1px; /* Prevent double borders */
+  background-color: white; /* Add a grey background color */
+  padding: 12px; /* Add some padding */
+}
+
+.critica a {
+color: black;
+}
+
+.critica a:hover {
+color: #8c2320;
+text-decoration: none;
+font-style: oblique;
+}
+
+/*Sezione dove c'è l'item*/
+.item-prestito {
+	width: 54%;
+	position: relative;
+	float: right;
+	right: 5%;
+}
+
+.card.item-leggere {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  background-color: lightyellow;
+}
+
+.card.item-leggere img {
+	width: 30%;
+	align-self: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card.item-leggere:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container.item-leggere {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+.button-leggi {
+	background-color: #a62a26;
+  border: 2px solid #8c2320;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 16px;
+}
+
+.button-leggi a {
+	color: #ffffcc;
+	font-weight: bold;
+}
+
+.button-leggi a:hover {
+	color: white;
+}
+
+/*Sezione per la descrizione item*/
+.descrizione-item {
+	position: absolute;
+	left: 500px;
+	padding: 10px;
+}
+
+/*Sezione per i metadati*/
+.sezione-metadati {
+	background-color: #ffffcc;
+	padding: 25px 40px;
+	position: relative;
+	height: 590px;
+}
+
+table.metadati {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #8c2320;
+}
+
+.metadati th, 
+.metadati td {
+  text-align: left;
+  padding: 16px;
+}
+
+.metadati tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+tbody {
+	background-color: #ffffe6;
+}
+
+/*Metadati scaricabili*/
+/*Bottoni metadati scaricabili*/
+.metadati-uniti {
+	width: 33%;
+}
+
+.btn-scarica {
+  border: 2px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #8c2320;
+  color: #8c2320;
+}
+
+.btn-scarica:hover {
+  background: #8c2320;
+  color: white;
+}
+
+.btn-scarica a {
+	color: black;
+}
+
+.btn-scarica:hover,
+.btn-scarica a:hover {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*Etichette categorie metadati*/
+.metadati.categoria {
+	text-align-last: center;
+}
+
+/*Bottoni etichette pagina item*/
+.etichette {
+margin-top: 20px;
+}
+
+.btn-etichette {
+  border: none; /* Remove borders */
+  border-radius: 5px;
+  color: white; /* Add a text color */
+  font-size: 15px;
+  padding: 5px 34px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  margin-bottom: 10px;
+}
+
+.letteratura {background-color: #04AA6D;} /* Green */
+.letteratura:hover {background-color: #46a049;}
+
+.romanzo {background-color: #2196F3;} /* Blue */
+.romanzo:hover {background: #0b7dda;}
+
+.realismo.fantastico {background-color: #ff9800;} /* Orange */
+.realismo.fantastico:hover {background: #e68a00;}
+
+.dolomiti {background-color: #f44336;} /* Red */
+.dolomiti:hover {background: #da190b;}
+
+/*Metadati scritti*/
+.metadati.scritti {
+	position: absolute;
+	left: 37%;
+	top: 4%;
+}
+
+.metadati.scritti a {
+	color: black;
+	font-style: oblique;
+}
+
+.metadati.scritti a:hover {
+	color: #8c2320;
+	text-decoration: underline;
+}
+
+.metadati.descrizione {
+	width: 800px;
+}
+
+/*Ricerche correlate*/
+.item.correlati {
+	height: 560px;
+	margin: 40px;
+	background-color: #ffffcc;
+}
+
+.titolo.correlati {
+	padding-top: 15px;
+	background-color: #ffffcc;
+}
+
+.correlati a {
+	color: black;
+}
+
+.correlati a:hover {
+	font-style: oblique;
+	color: #8c2320;
+}
+
+/* Create three equal columns that float next to each other */
+.column.correlati {
+  float: left;
+  width: 33.33%;
+  word-wrap: break-word;
+}
+
+/* Clear floats after the columns */
+.row.correlati:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card.correlati {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 10px 60px;
+  white-space: normal;
+}
+
+.card.correlati img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card.correlati:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+/* Add some padding inside the card container */
+.container.correlati {
+  padding: 10px 28px;
+  overflow: hidden;
+  flex-flow: wrap;
+}
+
+.correlati h4 {
+	margin-bottom: 20px;
+}
+

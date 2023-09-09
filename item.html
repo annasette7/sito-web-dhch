@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Nel mistero di Dino Buzzati</title>
+	<link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="stile/stile.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!--Font-->
+	<link href='https://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet'/>
+	<link href='https://fonts.googleapis.com/css?family=Archivo' rel='stylesheet'/>
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="item">
+
+	<!--Bottone per tornare su-->
+	<button onclick="topFunction()" id="myBtn" title="Torna su">Top</button>
+
+	<!--Elemento header per la testata della pagina-->
+	<header>
+
+		<!--Elemento nav per il menu di navigazione-->
+		<nav>
+			<ul>
+				<li><a class="fungo" href="index.html" target="_self"/><img title="Home" alt="Fungo disegnato da Buzzati" class="logo" src="img/favicon.ico"></a></li>
+				<li><a class="categoria" href="index.html">Home</a></li>
+		  		<li><a class="categoria" href="#vita">Vita</a></li>
+		  		<li><a class="categoria" href="#catalogo-opere">Opere</a></li>
+		  		<li><a class="categoria" href="#temi">Temi</a></li>
+				<li><a class="categoria" href="catalogo.html" id="active">Catalogo</a></li>
+				<li><a class="categoria" id="accesso" href="#accesso">Accedi / Iscriviti</a></li>
+	  			<!--Collapsed sidebar-->
+	  			<div id="mySidepanel" class="sidepanel">
+					<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+					<div class="sidepanel-link">
+						<a href="#">Chi siamo</a>
+						<a href="#">Servizi</a>
+						<a href="#">Sostienici!</a>
+						<a href="#">Contatti</a>
+					</div>
+				</div>
+				<button class="openbtn" onclick="openNav()">&#9776;</button>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="prima-sezione item">
+		<div class="intro-item">
+			<div class="titolo-item">
+				<h2><em>Il deserto dei Tartari</em> <br>
+				Dino Buzzati</h2>
+			</div>
+		</div>
+	</section>
+
+	<aside>
+		<ul class="breadcrumb item">
+			<li class="briciole"><a href="index.html" class="breadcrumb unactive">Home</a></li>
+			<li class="briciole"><a href="catalogo.html" class="breadcrumb unactive">Catalogo</a></li>
+			<li class="briciole"><a href="#" class="breadcrumb catalogo active">Dino Buzzati, Il deserto dei tartari</a></li>
+		</ul>
+	</aside>
+
+	<section class="item-prestito">
+		<div class="card item-leggere">
+		  <img src="img/boutique-mistero.png">
+		  <a href=""><button class="button-leggi"><a href="#">Accedi</a>/<a href="#">Registrati</a> e prendi in prestito per un'ora!</button></a>
+		  	<div class="container item-leggere">
+			    <p>Descrizione: <em>La raccolta, pubblicata per la prima volta nel 1968, nasce come selezione dei trentuno racconti più rappresentativi dell'opera di Buzzati, già pubblicati precedentemente su altre raccolte. Qui è rappresentata l'edizione
+			    del 2018, edita per A. Mondadori.
+				La brossura misura 12,7 (b) x 19,7 cm (h) per un totale di 208 pagine.</em></p>
+			</div>
+		</div>
+	</section>
+
+	<aside>
+		<div class="fila-critica">
+			<h3>Critica associata</h3>
+			<ul class="critica">
+			  <li class="critica"><a href="#"><b>El laberinto como símbolo del referente inexistente: Una comparación entre Borges y Buzzati</b></a> <br>
+			  Coriasso, Cristina</li>
+			  <li class="critica"><a href="#"><b>Dino Buzzati: linguaggi e silenzi del fantastico</b></a> <br>
+			  Ioli, Giovanna</li>
+			  <li class="critica"><a href="#"><b>Oltre il confine: La Dilatazione dei paradigmi di realtà nei racconti fantastici di Dino Buzzati</b></a> <br>
+			  Reza, Matthew</li>
+			  <li class="critica"><a href="#"><b>La presenza del grottesco nei racconti di Dino Buzzati</b></a> <br>
+			  Perusko, Tatjana</li>
+			</ul>
+		</div>
+	</aside>
+
+	<div class="sezione-metadati">
+			<div class="metadati-uniti">
+				<div class="metadati scaricabili">
+					<table class="metadati">
+					    <td><b>XML/DC</b></td>
+					    <td><button class="btn-scarica"><i class="fa fa-download"></i> <a href="boutique.xml" target="_blank">Scarica</a></button></button></td>
+					  </tr>
+					  <tr>
+					    <td><b>XML/TEI</b></td>
+					    <td><button class="btn-scarica"><i class="fa fa-download"></i> <a href="boutique-trascrizione.xml" target="_blank">Scarica</a></button></button></td>
+					  </tr>
+					  <tr>
+					    <td><b>Scarica foto/pagine</b></td>
+					    <td><button class="btn-scarica"><i class="fa fa-download"></i> <a href="#" target="_blank">Scarica</a></button></td>
+					  </tr>
+					  	<tr>
+					    <td><b>Indice</b></td>
+					    <td><button class="btn-scarica"><i class="fa fa-download"></i> <a href="#" target="_blank">Scarica</a></button></td>
+					  </tr>
+					</table>
+				</div>
+
+				<div class="categoria-item">
+					<table class="metadati categoria">
+						<tr>
+						    <td><b>Categoria:</b> <br>
+					    	<button class="btn-etichette realismo fantastico">
+								<i class="fa fa-tag"></i>
+								Realismo fantastico
+							</button>
+						    <button class="btn-etichette letteratura">
+									<i class="fa fa-tag"></i>
+									Letteratura
+								</button> <br>
+								<button class="btn-etichette romanzo">
+									<i class="fa fa-tag"></i>
+									Racconti
+								</button> 
+								<button class="btn-etichette dolomiti">
+									<i class="fa fa-tag"></i>
+									Weird fiction
+								</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<div class="metadati scritti">
+				<table class="metadati descrizione">
+					    <td><b><span>Titolo:<span></b></td>
+					    <td>La boutique del mistero</td>
+					  </tr>
+					  <tr>
+					    <td><b><span>Creatore:</span></b></td>
+					    <td><a href="http://viaf.org/viaf/27061960" title="Identificativo VIAf di Dino Buzzati" target="_blank">Dino Buzzati<sup>VIAF</sup></a></td>
+					  </tr>
+					  <tr>
+					    <td><b><span>Data:</span></b></td>
+					    <td>2018</td>
+					  </tr>
+					  <tr>
+					    <td><b><span>Editore:</span></b></td>
+					    <td>Milano, <a href="https://www.mondadori.it/" title="Sito ufficiale" target="_blank">Oscar Mondadori<sup>Sito Ufficiale</sup></a></td>
+					  </tr>
+					  <tr>
+					    <td><b><span>Tipo di oggetto:</span></b></td>
+					    <td><a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=short+story" title="Definizione WordNet" target="_blank">Letteratura > Narrativa > Racconti<sup>WordNet</sup></a></td>
+					  </tr>
+					  <tr>
+					    <td><b><span>Dimensione:</span></b></td>
+					    <td>XIX, 208 p.; brossura 12,7 x 19,7 cm</td>
+					  </tr>
+					  <tr>
+					    <td><b><span>Lingua:</span></b></td>
+					    <td>Italiano</td>
+					  </tr>
+					  <tr>
+					    <td><b><span>Codice identificativo:<span></b></td>
+					    <td>IT\ICCU\UBO\4471538</td>
+					  </tr>
+					  <tr>
+					    <td><b><span>Licenze:<span></b></td>
+					    <td>Creative Commons Attribuzione 3.0 internazionale <a href="https://creativecommons.org/licenses/by/3.0" class="btn btn-light" target="_blank" title="Licenza Creative Commons CC BY 4.0">
+                                <img alt="Creative Commons License" style="border-width:0; width: 60px;" src="https://i.creativecommons.org/l/by/4.0/88x31.png">
+                           	</a></td>
+					  </tr>
+				</table>
+			</div>	
+		</div>
+
+	<section>
+		<div class="item correlati">
+			<h2>Vuoi scoprire di più?</h2>
+			<div class="row correlati">
+			<div class="column correlati">
+				<div class="card correlati">
+				  <img src="img/deserto-film.png" alt="Valerio Zurlini, Il deserto dei tartari">
+				  <div class="container correlati">
+				    <h4><a href=""><b>Il deserto dei tartari</b></a></h4>
+				    <p><b>Creatore:</b> <em><a href="http://viaf.org/viaf/79169823" title="Identificativo VIAF di Valerio Zurlini" target="_blank">Valerio Zurlini<sup>VIAF</sup></a></em></p>
+				    <p><b>Prodotto:</b> <em><a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=film" title="Definizione WordNet" target="_blank">Film<sup>WordNet</sup></a></em></p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="column correlati">
+				<div class="card correlati">
+				  <img src="img/barnabo.png" alt="Dino Buzzati, Bàrnabo delle montagne">
+				  <div class="container correlati">
+				    <h4><a href=""><b>Bàrnabo delle montagne</b></a></h4>
+				    <p><b>Creatore:</b> <em><a href="http://viaf.org/viaf/27061960" title="Identificativo VIAf di Dino Buzzati" target="_blank">Dino Buzzati<sup>VIAF</sup></a></em></p>
+				    <p><b>Prodotto:</b> <em><a href="http://wordnetweb.princeton.edu/perl/webwn?o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&s=novel&h=0000&j=0#c" title="Definizione WordNet" target="_blank">Romanzo<sup>WordNet</sup></a></em></p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="column correlati">
+				<div class="card correlati">
+				  <img src="img/duomo.png" alt="Duomo di Milano">
+				  <div class="container correlati">
+				    <h4><a href=""><b>Duomo di Milano</b></a></h4>
+				    <p><b>Creatore:</b> <em><a href="http://viaf.org/viaf/27061960" title="Identificativo VIAf di Dino Buzzati" target="_blank">Dino Buzzati<sup>VIAF</sup></a></em></p>
+				    <p><b>Prodotto:</b> <em><a href="http://wordnetweb.princeton.edu/perl/webwn?s=painting&sub=Search+WordNet&o2=&o0=1&o8=1&o1=1&o7=&o5=&o9=&o6=&o3=&o4=&h=0000" title="Definizione WordNet" target="_blank">Dipinto<sup>WordNet</sup></a></em></p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--Elemento footer per il piede di pagina-->
+	<footer>
+
+		<div class="primo-footer">
+			<div class="first-column">
+				<h3>Chi siamo</h3>
+				<p><em>Nel mistero di Dino Buzzati. In limine tra realtà e fantastico</em> è un progetto monografico della <a href="#">Open Access Foundation</a> che indaga il lascito di uno tra i più grandi autori italiani del '900, Dino Buzzati. Crediamo in una modernità in cui la cultura sia accessibile a tutte le persone per permettere, in questo modo, la migliore forma di preservazione di ogni patrimonio culturale.</p>
+			</div>
+
+		  	<div class="second-column">
+		    	<h3>Sezioni utili</h3>
+		    	<ul class="sezione-footer">
+		    		<li class="sezione-footer"><a href="#">Chi siamo</a></li><br>
+		    		<li class="sezione-footer"><a href="#">Servizi</a></li><br>
+		    		<li class="sezione-footer"><a href="#">Collabora con noi</a></li><br>
+		    		<li class="sezione-footer"><a href="#">Credits | License </a></li><br>
+		    	</ul>
+		  	</div>
+
+		  	<div class="third-column">
+		  		<h3>Aiuto</h3>
+		  		<ul>
+		  			<li class="sezione-footer"><a href="">Aiuto</a></li><br>
+		    		<li class="sezione-footer"><a href="">Termini di utilizzo</a></li><br>
+		    		<li class="sezione-footer"><a href="">Informativa sulla privacy</a></li><br>
+		    		<li class="sezione-footer"><a href="">Accessibilità</a></li><br>
+		    		<li class="sezione-footer"><a href="">Cookie</a></li><br>
+		    		<li class="sezione-footer"><a href="">Domande frequenti</a></li><br>
+		  		</ul>
+		  	</div>
+
+			<!--Sezione per social-->
+			<div class="social">
+				<h3>Contatti</h3><br>
+				<a href="#" class="fa fa-facebook"></a>
+				<a href="#" class="fa fa-twitter"></a>
+				<a href="#" class="fa fa-google"></a>
+				<a href="#" class="fa fa-linkedin"></a>
+				<a href="#" class="fa fa-youtube"></a>
+				<a href="#" class="fa fa-instagram"></a>
+				<a href="#" class="fa fa-pinterest"></a>
+			</div>
+		</div>
+		<hr class="footer">
+
+		<!--Riga finale-->
+		<div class=riga-finale>
+			<p>&copy;Copyright Anna Sette 2023 - Corso di Digital Humanities e Patrimonio Culturale</p>
+		</div>
+	</footer>
+
+	<!--script-->
+	<script src="js/main.js"></script>
+	<!--jQuery-->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!--Popper.js-->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<!--libreria Bootstrap JS-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+	<!--Bootstrap JS-->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
