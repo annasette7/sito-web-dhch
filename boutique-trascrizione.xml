@@ -16,7 +16,6 @@
 				<publisher>Open Access Foundation</publisher>
 				<pubPlace>Bologna</pubPlace>
 				<date>2023</date>
-				<idno></idno>
 				<availability>
 					<p>Questa risorsa digitale è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato</p>
 				</availability>
@@ -28,6 +27,7 @@
 					<publisher>Mondadori</publisher>
 					<pubPlace>Milano</pubPlace>
 					<date>2018</date>
+					<idno type="ISBN">9788804668084</idno>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
@@ -60,120 +60,128 @@
 				<head>Opere di Dino Buzzati</head>
 				<div type="sottosezione" n="4.1">
 					<head>Romanzi e racconti</head>
-					<p>Bàrnabo delle montagne, Treves-Treccani-Tumminelli, Milano-Roma 1933 (poi Garzanti, Milano 1949 e Mondadori, Milano 1979).
-					Il segreto del Bosco Vecchio, Treves-Treccani-Tumminelli, Milano-Roma 1935 (poi Garzanti, Milano 1957 e Mondadori, Milano 1979).
-					Il deserto dei Tartari, Rizzoli, Milano-Roma 1940 (poi Mondadori, Milano 1945).
-					I sette messaggeri, Mondadori, Milano 1942.
-					La famosa invasione degli orsi in Sicilia, Rizzoli, Milano 1945 (poi Martello, Milano 1958 e Mondaori, Milano 1977).
-					Il libro delle pipe, in collaborazione con G. Ramazzotti e con disegni degli autori, Antonioli, Milano 1945 (poi Martello, Milano 1966).
-					Paura della Scala, Mondadori, Milano, 1949.
-					In quel preciso momento, Neri Pozza, Vicenza 1950 (2 ed. accresciuta 195; 3 ed. Mondadori, Milano 1963).
-					Il crollo della Baliverna, Mondadori, Milano 1954.
-					Esperimento di magia. 18 racconti, Rebellato, Padova 1958.
-					Le storie dipinte, a cura di M. Oriani e A. Ravegnani, All'insegna dei Re Magi, Milano 1958 (nuova ed. a cura di L. Viganò, Mondadori, Milano 2013.
-					Sessanta racconti, Mondadori, Milano 1958.
-					Egregio signore, siamo spiacenti di..., con illustrazione di Siné, Elmo, Milano 1960(poi con il titolo Siamo spiacenti di, con introduzione di D. Porzio, Mondadori, Milano 1975).
-					Il grande ritratto, Mondadori, Milano 1960.
-					Un amore, Mondadori, Milano 1963
-					Il colombre e altri cinquanta racconti, Mondadori, Milano 1966.
-					La boutique del mistero, Mondadori, Milano 1968.
-					Poema a fumetti, Mondadori, Milano 1969.
-					Le notti difficili, Mondadori, Milano 1971.
-					I miracoli di Val Morel, Garzanti, Milano 1971 (1 ed. nel catalogo Miracoli inediti di una santa, Edizioni del Naviglio, Milano 1970; poi Per grazia ricevuta, GEI, Milano 1983; quindi ancora con il titolo I miracoli di Val Morel, con prefazione di I. Montanelli e postfazione di L. Viganò, Mondadori, Milano 2012).
-					Romanzi e racconti, a cura di G. Gramigna, Mondadori, Milano 1975 (”I Meridiani”).
-
-					180 racconti, con una presentazione di C. Della Corte, Mondadori, Milano 1982.
-
-					Il reggimento parte all’alba, con una prefazione di I. Montanelli e uno scritto di G. Piovene, Frassinelli, Milano 1985.
-
-					Il meglio dei racconti, a cura di F. Roncoroni, Mondadori, Milano 1990.
-
-					Lo strano Natale di Mr. Scrooge e altre storie, a cura di D. Porzio, Mondadori, Milano 1990.
-
-					Bestiario, a cura di C. Marabini, Mondadori, Milano 1991 (ed. accresciuta con il titolo Il «Bestiario» di Dino Buzzati, a cura di L. Viganò, Mondadori, Milano 2015).
-
-					Opere scelte, a cura di G. Carnazzi, Mondadori, Milano 1998 (”I Meridiani”).</p>
+					<list xmlns="http://www.tei-c.org/ns/1.0">
+					<item>Bàrnabo delle montagne, Treves-Treccani-Tumminelli, Milano-Roma 1933 (poi Garzanti, Milano 1949 e Mondadori, Milano 1979).</item>
+					<item>Il segreto del Bosco Vecchio, Treves-Treccani-Tumminelli, Milano-Roma 1935 (poi Garzanti, Milano 1957 e Mondadori, Milano 1979).</item>
+					<item>Il deserto dei Tartari, Rizzoli, Milano-Roma 1940 (poi Mondadori, Milano 1945).</item>
+					<item>I sette messaggeri, Mondadori, Milano 1942.</item>
+					<item>La famosa invasione degli orsi in Sicilia, Rizzoli, Milano 1945 (poi Martello, Milano 1958 e Mondaori, Milano 1977).</item>
+					<item>Il libro delle pipe, in collaborazione con G. Ramazzotti e con disegni degli autori, Antonioli, Milano 1945 (poi Martello, Milano 1966).</item>
+					<item>Paura della Scala, Mondadori, Milano, 1949.</item>
+					<item>In quel preciso momento, Neri Pozza, Vicenza 1950 (2 ed. accresciuta 195; 3 ed. Mondadori, Milano 1963).</item>
+					<item>Il crollo della Baliverna, Mondadori, Milano 1954.</item>
+					<item>Esperimento di magia. 18 racconti, Rebellato, Padova 1958.</item>
+					<item>Le storie dipinte, a cura di M. Oriani e A. Ravegnani, All'insegna dei Re Magi, Milano 1958 (nuova ed. a cura di L. Viganò, Mondadori, Milano 2013.</item>
+					<item>Sessanta racconti, Mondadori, Milano 1958.</item>
+					<item>Egregio signore, siamo spiacenti di..., con illustrazione di Siné, Elmo, Milano 1960(poi con il titolo Siamo spiacenti di, con introduzione di D. Porzio, Mondadori, Milano 1975).</item>
+					<item>Il grande ritratto, Mondadori, Milano 1960.</item>
+					<item>Un amore, Mondadori, Milano 1963.</item>
+					<item>Il colombre e altri cinquanta racconti, Mondadori, Milano 1966.</item>
+					<item>La boutique del mistero, Mondadori, Milano 1968.</item>
+					<item>Poema a fumetti, Mondadori, Milano 1969.</item>
+					<item>Le notti difficili, Mondadori, Milano 1971.</item>
+					<item>I miracoli di Val Morel, Garzanti, Milano 1971 (1 ed. nel catalogo Miracoli inediti di una santa, Edizioni del Naviglio, Milano 1970; poi Per grazia ricevuta, GEI, Milano 1983; quindi ancora con il titolo I miracoli di Val Morel, con prefazione di I. Montanelli e postfazione di L. Viganò, Mondadori, Milano 2012).</item>
+					<item>Romanzi e racconti, a cura di G. Gramigna, Mondadori, Milano 1975 (”I Meridiani”).</item>
+					<item>180 racconti, con una presentazione di C. Della Corte, Mondadori, Milano 1982.</item>
+					<item>Il reggimento parte all’alba, con una prefazione di I. Montanelli e uno scritto di G. Piovene, Frassinelli, Milano 1985.</item>
+					<item>Il meglio dei racconti, a cura di F. Roncoroni, Mondadori, Milano 1990.</item>
+					<item>Lo strano Natale di Mr. Scrooge e altre storie, a cura di D. Porzio, Mondadori, Milano 1990.</item>
+					<item>Bestiario, a cura di C. Marabini, Mondadori, Milano 1991 (ed. accresciuta con il titolo Il «Bestiario» di Dino Buzzati, a cura di L. Viganò, Mondadori, Milano 2015).</item>
+					<item>Opere scelte, a cura di G. Carnazzi, Mondadori, Milano 1998 (”I Meridiani”).</item>
+				</list>
 				</div>
 					
 				<div type="sottosezione" n="4.2">
 					<head>Poesia</head>
-					<p>Il capitano Pic e altre poesie, Neri Pozza, Vicenza 1965 (poi Le poesie, Neri Pozza, Vicenza 1982) Scusi, da che parte per Piazza del Duomo?, in G. Pirelli - C. Orsi, Milano, Alfieri, Milano 1965 (poi in Due poemetti, Neri Pozza, Vicenza 1967; quindi in Le poesie, cit.).
-					Tre colpi alla porta, in «Il Caffè», n. 5, 1965 (poi in Due poemetti, cit; quindi in Le poesie, cit.).</p>
+					<list xmlns="http://www.tei-c.org/ns/1.0">
+					<item>Il capitano Pic e altre poesie, Neri Pozza, Vicenza 1965 (poi Le poesie, Neri Pozza, Vicenza 1982) Scusi, da che parte per Piazza del Duomo?, in G. Pirelli - C. Orsi, Milano, Alfieri, Milano 1965 (poi in Due poemetti, Neri Pozza, Vicenza 1967; quindi in Le poesie, cit.).</item>
+					<item>Tre colpi alla porta, in «Il Caffè», n. 5, 1965 (poi in Due poemetti, cit; quindi in Le poesie, cit.).</item>
+				</list>
 				</div>
 
 				<div type="sottosezione" n="4.3">
 					<head>Teatro</head>
-					<p>La rivolta contro i poveri, in «I quaderni di "Film"», 1946.
-					Un caso clinico, Mondadori, Milano 1953.
-					Drammatica fine di un noto musicista, in «Corriere d'informazione», 3-4 novembre 1955.
-					Sola in casa, in «L'illustrazione italiana», maggio 1958, pp. 75-80.
-					Le finestre, in «Corriere d'informazione», 13-14 giugno 1959.
-					Un verme al Ministero, «Il dramma», aprile 1960, pp. 15-48.
-					Il mantello, in «Il dramma», giugno 1962, pp. 37-47-.
-					I suggeritori, in «Documento Moda 1960», Milano 1960.
-					L'uomo che andrà in America, in «Il dramma», giugno 1962, pp. 5-37 (poi L'uomo che andrà in America. Una ragazza arrivò, Bietti, Milano 1968).
-					La colonna infame, in «Il dramma», dicembre 1962, pp. 33-61.
-					La fine del borghese, Bietti, Milano 1968.
-					L'aumento, in «Carte segrete», VI, n.19, luglio-settembre 1972, pp. 73-85(l'atto unico, del 1961, è preceduto da una nota di L. Pasciutti).
-					Un caso clinico e altre commedie in un atto, a cura di G. Davico Bonino, Mondadori, Milano 1985("Oscar Teatro e Cinema").
-					Teatro, a cura di G. Davico Bonino, Mondadori, Milano 2006(raccoglie tutti i testi teatrali).</p>
+					<list xmlns="http://www.tei-c.org/ns/1.0">
+					<item>La rivolta contro i poveri, in «I quaderni di "Film"», 1946.</item>
+					<item>Un caso clinico, Mondadori, Milano 1953.</item>
+					<item>Drammatica fine di un noto musicista, in «Corriere d'informazione», 3-4 novembre 1955.</item>
+					<item>Sola in casa, in «L'illustrazione italiana», maggio 1958, pp. 75-80.</item>
+					<item>Le finestre, in «Corriere d'informazione», 13-14 giugno 1959.</item>
+					<item>Un verme al Ministero, «Il dramma», aprile 1960, pp. 15-48.</item>
+					<item>Il mantello, in «Il dramma», giugno 1962, pp. 37-47-.</item>
+					<item>I suggeritori, in «Documento Moda 1960», Milano 1960.</item>
+					<item>L'uomo che andrà in America, in «Il dramma», giugno 1962, pp. 5-37 (poi L'uomo che andrà in America. Una ragazza arrivò, Bietti, Milano 1968).</item>
+					<item>La colonna infame, in «Il dramma», dicembre 1962, pp. 33-61.</item>
+					<item>La fine del borghese, Bietti, Milano 1968.</item>
+					<item>L'aumento, in «Carte segrete», VI, n.19, luglio-settembre 1972, pp. 73-85(l'atto unico, del 1961, è preceduto da una nota di L. Pasciutti).</item>
+					<item>Un caso clinico e altre commedie in un atto, a cura di G. Davico Bonino, Mondadori, Milano 1985("Oscar Teatro e Cinema").</item>
+					<item>Teatro, a cura di G. Davico Bonino, Mondadori, Milano 2006(raccoglie tutti i testi teatrali).</item>
+				</list>
 				</div>
 
 				<div type="sottosezione" n="4.4">
 					<head>Libretti per musica</head>
-					<p>Ferrovia sopraelevata (racconto musicale in sei episodi per la musica di Luciano Chailly, rappresentato a Bergamo, 1 ottobre 1955), Edizioni della Rotonda, Bergamo 1955 (poi Ferriani, Milano 1960).
-					Procedura penale (opera buffa in un atto per la musica di Luciano Chailly, rappresentata a Como, Teatro Villa Olmo, 30 settembre 1959), Ricordi, Milano 1959.
-					Il mantello (opera lirica in un atto per la musica di Luciano Chailly, rappresentata a Firenze nell'ambito del Maggio Musicale Fiorentino, Teatro della Pergola, 11 maggio 1960), Ricordi, Milano 1960.
-					Battono alla porta (opera televisiva in un atto per la musica di Riccardo Malipiero, trasmessa dalla televisione, per il premio Italia 1961, nel febbraio 1962; rappresentata a Genova nel 1963), Suvini-Zerboni, Milano 1963
-					Era proibito (opera lirica in un atto per la musica di Luciano Chailly, rappresentata a Milano, Piccola Scala, nella stagione 1962-63), Ricordi, Milano 1963.
-					Dino Buzzati ha inoltre realizzato varie scenografie per teatri importanti; fra le altre, ricordiamo quelle per i già citati Il mantello(Teatro della Pergola, Firenze 1960) ed Era proibito(Piccola Scala,, Milano 1963) di Luciano Chaillym e per Jeu de cartes di Igor Stravinskij(Teatro alla Scala, Milano 1960).</p>
+					<list xmlns="http://www.tei-c.org/ns/1.0">
+					<item>Ferrovia sopraelevata (racconto musicale in sei episodi per la musica di Luciano Chailly, rappresentato a Bergamo, 1 ottobre 1955), Edizioni della Rotonda, Bergamo 1955 (poi Ferriani, Milano 1960).</item>
+					<item>Procedura penale (opera buffa in un atto per la musica di Luciano Chailly, rappresentata a Como, Teatro Villa Olmo, 30 settembre 1959), Ricordi, Milano 1959.</item>
+					<item>Il mantello (opera lirica in un atto per la musica di Luciano Chailly, rappresentata a Firenze nell'ambito del Maggio Musicale Fiorentino, Teatro della Pergola, 11 maggio 1960), Ricordi, Milano 1960.</item>
+					<item>Battono alla porta (opera televisiva in un atto per la musica di Riccardo Malipiero, trasmessa dalla televisione, per il premio Italia 1961, nel febbraio 1962; rappresentata a Genova nel 1963), Suvini-Zerboni, Milano 1963.</item>
+					<item>Era proibito (opera lirica in un atto per la musica di Luciano Chailly, rappresentata a Milano, Piccola Scala, nella stagione 1962-63), Ricordi, Milano 1963.</item>
+					<item>Dino Buzzati ha inoltre realizzato varie scenografie per teatri importanti; fra le altre, ricordiamo quelle per i già citati Il mantello (Teatro della Pergola, Firenze 1960) ed Era proibito (Piccola Scala,, Milano 1963) di Luciano Chaillym e per Jeu de cartes di Igor Stravinskij (Teatro alla Scala, Milano 1960).</item>
+				</list>
 				</div>
 
 				<div type="sottosezione" n="4.5">
 					<head>Scritti gioralistici in volume</head>
-					<p>Cronache terrestri, a cura di D. Porzio, Mondadori, Milano 1972.
-					I misteri d'Italia, Mondadori, Milano 1978.
-					Dino Buzzati al Giro d'Italia, a cura di C. Marabini, Mondadori, Milano 1981.
-					Cronache nere, a cura di O. Del Buono, Theoria, Roma-Napoli 1984
-					Le montagne di vetro, a cura di E. Camanni, Vivalda, Torino 1989.
-					Il buttafuoco. Cronache di guerra sul mare, Mondadori, Milano 1992
-					La «nera» di Dino Buzzati, 2 voll., a cura di L. Viganò, Mondadori, Milano 2002.
-					Le cronache fantastiche, 2 voll., a cura di L. Viganò, Mondadori, Milano 2004.
-					Il panettone non bastò, a cura di L. Viganò, Mondadori, Milano 2004.
-					Sulle Dolomiti, scritti dal 1932 al 1970, a cura di M.A. Ferrari, Editoriale Domus, Rozzano 2005.
-					I fuorilegge della montagna, 2 voll., a cura di L. Viganò, Mondadori, Milano 2010.</p>
+					<list xmlns="http://www.tei-c.org/ns/1.0">
+					<item>Cronache terrestri, a cura di D. Porzio, Mondadori, Milano 1972.</item>
+					<item>I misteri d'Italia, Mondadori, Milano 1978.</item>
+					<item>Dino Buzzati al Giro d'Italia, a cura di C. Marabini, Mondadori, Milano 1981.</item>
+					<item>Cronache nere, a cura di O. Del Buono, Theoria, Roma-Napoli 1984.</item>
+					<item>Le montagne di vetro, a cura di E. Camanni, Vivalda, Torino 1989.</item>
+					<item>Il buttafuoco. Cronache di guerra sul mare, Mondadori, Milano 1992.</item>
+					<item>La «nera» di Dino Buzzati, 2 voll., a cura di L. Viganò, Mondadori, Milano 2002.</item>
+					<item>Le cronache fantastiche, 2 voll., a cura di L. Viganò, Mondadori, Milano 2004.</item>
+					<item>Il panettone non bastò, a cura di L. Viganò, Mondadori, Milano 2004.</item>
+					<item>Sulle Dolomiti, scritti dal 1932 al 1970, a cura di M.A. Ferrari, Editoriale Domus, Rozzano 2005.</item>
+					<item>I fuorilegge della montagna, 2 voll., a cura di L. Viganò, Mondadori, Milano 2010.</item>
+				</list>
 				</div>
 
 				<div type="sottosezione" n="4.6">
 					<head>Prefazioni e altri scritti</head>
-					<p>Ritratto con battaglia, in AA. VV., Prime storie di guerra, a cura di A. Cappellini, Rizzoli, Milano-Roma 1942, pp. 39-50.
-					Difficoltà di Verdi, in AA. VV., Giuseppe Verdi, a cura di F. Abbiati, Milano s.d. [ma 1951], pp. 79-81 (pubblicazione del Teatro alla Scala per le onoranze a Giuseppe Verdi nel cinquantenario della morte).
-					Prefazione a G. Supino, La vera storia di Galatea, Ceschina, Varese-Milano 1962.
-					Milano, in AA. VV., Lo stivale allo spiedo. Viaggio attraverso la cucina italiana, a cura di P. Accolti e G.A. Cibotto, Caanesi, Roma s.d. [ma 1964], pp. 75-81.
-					Come fece Erostrato, in AA. VV., Quando l'Italia tollerava, a cura di G. Fusco, Canesi, Roma 1965, pp. 101-106.
-					Il maestro del Giudizio universale, in L'opera completa di Bosch, con apparati critici e filologici di M. Cinotti, Rizzzoli, Milano 1966 ("Classici dell'arte").
-					Prefazione ad A. Pigna, Miliardari in borghese, Mursia, Milano 1966    
-					Week-End, in F.S. Borri, Il Cimitero Monumentale di Milano, Arti Grafiche E. Marazzi, Milano 1966, pp. 71-75.
-					Prefazione ad A. Giannini, Il brevetto, con tredici disegni di D. Buzzati, Longanesi, Milano 1967.
-					Prefazione a M.R. James, Cuori strappati, Bompiani, Milano 1967 ("Il pesanervi").
-					Testimonianza di due amici, in A. Brambilla, Diario, a cura di F. Brambilla Ageno e A. Brambilla, Mondadori, Milano 1967.
-					Disegno e fotografia, in Trieste e il Carso nelle tavole di Achille Beltrame della  «Domenica del Corriere» (1915-1918), All'insegna del pesce d'oro, Milano 1968, pp. 10-16.
-					Prefazione a D. Manzella, L'incontro giusto, Bietti, Milano 1968.
-					Prefazione a W. Disney, Vita e dollari di Paperon de' Paperoni, Mondadori, Milano 1968.
-					Introduzione ad A. Sala, Il giusto verso, Rusconi, Milano 1970.
-					Un nobile addio, introduzione a W. Bonatti, I giorni grandi, Mondadori, Milano 1971.
-					Prefazione a E.R. Burroughs, Tarzan delle scimmie, Giunti, Firenze 1971.
-					Prefazione ad A. Pasetti, L'ora delle lucertole, Bietti, Milano 1971.
-					Il giornale segreto, con prefazione di G. Schiavi, Fondazione Corriere della Sera, Rizzoli, Milano 2006.</p>
+					<list xmlns="http://www.tei-c.org/ns/1.0">
+					<item>Ritratto con battaglia, in AA. VV., Prime storie di guerra, a cura di A. Cappellini, Rizzoli, Milano-Roma 1942, pp. 39-50.</item>
+					<item>Difficoltà di Verdi, in AA. VV., Giuseppe Verdi, a cura di F. Abbiati, Milano s.d. [ma 1951], pp. 79-81 (pubblicazione del Teatro alla Scala per le onoranze a Giuseppe Verdi nel cinquantenario della morte).</item>
+					<item>Prefazione a G. Supino, La vera storia di Galatea, Ceschina, Varese-Milano 1962.</item>
+					<item>Milano, in AA. VV., Lo stivale allo spiedo. Viaggio attraverso la cucina italiana, a cura di P. Accolti e G.A. Cibotto, Caanesi, Roma s.d. [ma 1964], pp. 75-81.</item>
+					<item>Come fece Erostrato, in AA. VV., Quando l'Italia tollerava, a cura di G. Fusco, Canesi, Roma 1965, pp. 101-106.</item>
+					<item>Il maestro del Giudizio universale, in L'opera completa di Bosch, con apparati critici e filologici di M. Cinotti, Rizzzoli, Milano 1966 ("Classici dell'arte").</item>
+					<item>Prefazione ad A. Pigna, Miliardari in borghese, Mursia, Milano 1966.</item>  
+					<item>Week-End, in F.S. Borri, Il Cimitero Monumentale di Milano, Arti Grafiche E. Marazzi, Milano 1966, pp. 71-75.</item>
+					<item>Prefazione ad A. Giannini, Il brevetto, con tredici disegni di D. Buzzati, Longanesi, Milano 1967.</item>
+					<item>Prefazione a M.R. James, Cuori strappati, Bompiani, Milano 1967 ("Il pesanervi").</item>
+					<item>Testimonianza di due amici, in A. Brambilla, Diario, a cura di F. Brambilla Ageno e A. Brambilla, Mondadori, Milano 1967.</item>
+					<item>Disegno e fotografia, in Trieste e il Carso nelle tavole di Achille Beltrame della  «Domenica del Corriere» (1915-1918), All'insegna del pesce d'oro, Milano 1968, pp. 10-16.</item>
+					<item>Prefazione a D. Manzella, L'incontro giusto, Bietti, Milano 1968.</item>
+					<item>Prefazione a W. Disney, Vita e dollari di Paperon de' Paperoni, Mondadori, Milano 1968.</item>
+					<item>Introduzione ad A. Sala, Il giusto verso, Rusconi, Milano 1970.</item>
+					<item>Un nobile addio, introduzione a W. Bonatti, I giorni grandi, Mondadori, Milano 1971.</item>
+					<item>Prefazione a E.R. Burroughs, Tarzan delle scimmie, Giunti, Firenze 1971.</item>
+					<item>Prefazione ad A. Pasetti, L'ora delle lucertole, Bietti, Milano 1971.</item>
+					<item>Il giornale segreto, con prefazione di G. Schiavi, Fondazione Corriere della Sera, Rizzoli, Milano 2006.</item>
+				</list>
 				</div>
 
 				<div type="sottosezione" n="4.7">
 					<head>Lettere</head>
-					<p>D. Buzzati, lettere a Brambilla, a cura di L. Simonelli, De Agostini, Novara 1985 (cfr. M. Depaoli, Il «Fondo Buzzati», in  «Autografo», vol. VII, n.s., n. 19, febbraio 1990, pp. 101-108).
-					-, Il figlio della notte, Lettere inedite di Dino Buzzati ad Arturo Brambilla, a cura di M. Depaoli, in «Autografo», vol. VIII, n.s., n. 23, giugni 1991, pp. 50-67.
-					N. Giannetto, Uno scambio di lettere fra Calvino e Buzzati, in «Studi buzzatiani», II, 1997, pp. 164-72.
-					-,  «Di solito ciò che si scrive su di me mi annoia terribilmente...»: una lettera inedita di Buzzati sul libro dedicatogli da Gianfranceschi, in «Studi buzzatiani», II, 1997, pp. 164-72.
-					-,  «Sono arrivato all'ultimo capitolo...»: una preziosa lettera di Dino Buzzati a Franco Mandelli a proposito di «Un amore», in «Studi buzzatiani», VI, 2001, pp. 95-98.</p>
+					<list xmlns="http://www.tei-c.org/ns/1.0">
+					<item>D. Buzzati, lettere a Brambilla, a cura di L. Simonelli, De Agostini, Novara 1985 (cfr. M. Depaoli, Il «Fondo Buzzati», in  «Autografo», vol. VII, n.s., n. 19, febbraio 1990, pp. 101-108).</item>
+					<item>-, Il figlio della notte, Lettere inedite di Dino Buzzati ad Arturo Brambilla, a cura di M. Depaoli, in «Autografo», vol. VIII, n.s., n. 23, giugni 1991, pp. 50-67.</item>
+					<item>N. Giannetto, Uno scambio di lettere fra Calvino e Buzzati, in «Studi buzzatiani», II, 1997, pp. 164-72.</item>
+					<item>-,  «Di solito ciò che si scrive su di me mi annoia terribilmente...»: una lettera inedita di Buzzati sul libro dedicatogli da Gianfranceschi, in «Studi buzzatiani», II, 1997, pp. 164-72.</item>
+					<item>-,  «Sono arrivato all'ultimo capitolo...»: una preziosa lettera di Dino Buzzati a Franco Mandelli a proposito di «Un amore», in «Studi buzzatiani», VI, 2001, pp. 95-98.</item>
+				</list>
 				</div>
 			</div>
 		</front>

@@ -205,10 +205,6 @@ li a.categoria:hover {
 }
 
 /*Fascia introduttiva di ricerca*/
-section {
-	margin-top: 55px;
-}
-
 .intro {
 	margin: auto;
 	color: black;
@@ -216,6 +212,10 @@ section {
 	background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+div#intro, .titolo-catalogo, .intro-item {
+	margin-top: 50px;
 }
 
 /*Firma Buzzati*/
@@ -876,6 +876,10 @@ img {
 }
 
 /*Sezione esplora per temi*/
+section.esplora-tema {
+	padding: 30px 0;
+}
+
 .scegli-tema {
 	display: inline-block;
 }
@@ -1209,6 +1213,16 @@ footer a:hover {
 	letter-spacing: 2px;
 	letter-spacing: 2px;
 	font-family: georgia, serif;
+}
+
+.riga-finale a {
+	color: white;
+	font-style: oblique;
+}
+
+.riga-finale a:hover {
+	color: white;
+	text-decoration: underline;
 }
 
 .riga-finale, .intro {
