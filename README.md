@@ -7,10 +7,12 @@ Nel contesto del progetto globale, è stata ideata l'Open Access Foundation (OAF
 Il sito è consultabile a questo indirizzo https://annasette7.github.io/sito-web-dhch/
 
 # Funzionalità attive
-
+Il sito web presenta una struttura composta principalmente da tre pagine: la homepage, il catalogo e la pagina dell'item, quest'ultima dedicata alla raccolta di racconti denominata "La boutique del mistero". Ciascuna di queste pagine ospita diverse sezioni di navigazione, progettate per fornire al pubblico una serie di risorse informative pertinenti.
 
 ## Home
+All'interno della homepage 
 
 ## Catalogo
+
 
 ## Item
