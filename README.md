@@ -9,7 +9,11 @@ Il sito è consultabile a questo indirizzo https://annasette7.github.io/sito-web
 # Funzionalità attive
 Il sito web presenta una struttura composta principalmente da tre pagine: la homepage, il catalogo e la pagina dell'item, quest'ultima dedicata alla raccolta di racconti denominata "La boutique del mistero". Ciascuna di queste pagine ospita diverse sezioni di navigazione, progettate per fornire al pubblico una serie di risorse informative pertinenti.
 
-## Navbar
+## Barra di navigazione
+La barra di navigazione principale offre diverse categorie di navigazione all'interno del sito. A sinistra, è presente il logo del sito, che funge da collegamento diretto alla homepage. A destra, è presente un menu a discesa che si espande quando si fa clic sul pulsante con l'icona corrispondente. Questo menu contiene ulteriori informazioni, che sono inoltre presenti nel footer del sito. Al momento, sono state implementate solo le funzionalità di navigazione relative all'icona, alla pagina principale (home) e al catalogo.
+
+## Footer
+Il footer del sito contiene principalmente sezioni di testo con collegamenti cliccabili, sebbene questi collegamenti non siano stati ancora sviluppati. Queste sezioni includono "Chi siamo", "Informazioni utili" e "Aiuto". Inoltre, sono presenti pulsanti con icone social che forniscono i recapiti social del sito, ma i collegamenti a tali profili non sono ancora stati attivati.
 
 ## Pagina Principale (Home)
 All'interno della pagina principale del sito, sono presenti diverse sezioni di navigazione per agevolare l'esperienza dell'utente.
@@ -47,11 +51,13 @@ La parte principale della pagina del catalogo presenta nove card, ognuna delle q
 Infine, è presente una sezione di esplorazione per i temi associati all'opera dell'autore, Dino Buzzati. Questi temi sono cliccabili e collegati a pagine informative all'interno della sezione "Temi" già presente nella barra di navigazione. Tuttavia, è importante notare che i link relativi a questa sezione non sono ancora stati sviluppati e rimangono inattivi.
 
 ## Item
+La pagina dell'item è strutturata in tre sezioni principali, ciascuna delle quali serve un obiettivo specifico rivolto agli utenti.
 
-###
+### Oggetto Culturale Digitale
+La prima sezione è dedicata all'oggetto culturale in formato digitale. Per visualizzarlo, è necessario effettuare l'accesso o la registrazione. La visualizzazione è consentita attraverso un apposito pulsante all'interno della card, che attualmente non è ancora stato implementato con un link funzionante. A sinistra, è presente una colonna dedicata alla critica relativa all'oggetto culturale, il che consente un'analisi approfondita da parte di esperti nel campo mediante il reindirizzamento ad altri siti web.
 
-###
+### Metadatazione dell'Oggetto Culturale Digitale e Analogico
+La seconda sezione comprende la metadatazione dell'oggetto culturale. A destra, è disponibile la metadatazione Dublin Core in formato HTML, presentata in una tabella che include dati ritenuti fondamentali, con opportuni controlli di autorità e collegamenti esterni. A sinistra, è possibile scaricare i metadati, inclusi il file XML/DC contenente la metadatazione dell'oggetto digitale e il file XML/TEI che comprende la metadatazione completa dell'oggetto, sia digitale che analogico, insieme al testo completo marcato. Sotto i metadati scaricabili, è presente una sezione contenente etichette di categoria associate all'oggetto culturale presente nella pagina web. Tuttavia, i pulsanti relativi a queste funzionalità non sono ancora stati attivati.
 
-###
-
-###
+### Altri Oggetti Culturali da Esplorare
+Infine, vi è una sezione dedicata ad altri oggetti culturali dello stesso autore, anch'essi presentati all'interno di card. Il titolo di ciascun oggetto è un link cliccabile che conduce a una pagina separata. È importante notare che i link relativi a questa sezione non sono ancora stati implementati.
